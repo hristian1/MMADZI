@@ -1,0 +1,95 @@
+﻿@model IEnumerable<ASPMMA.Data.Order>
+
+@{
+    ViewData["Title"] = "Orders";
+    var orders = Model?.ToList() ?? new List<ASPMMA.Data.Order>();
+    var revenue = orders.Sum(x => (x.Products?.Price ?? 0) * x.Quantity);
+    var totalItems = orders.Sum(x => x.Quantity);
+}
+
+<section class="section-head mb-4">
+    <div>
+        <h1>Orders</h1>
+        <p>Track completed purchases with totals, quantities and customer details.</p>
+    </div>
+    <a asp-action="Create" class="btn btn-brand rounded-pill px-4">+ New order</a>
+</section>
+
+<section class="metric-grid">
+    <article class="metric-card">
+        <h3>@orders.Count</h3>
+        <p>Total orders</p>
+    </article>
+    <article class="metric-card">
+        <h3>@totalItems</h3>
+        <p>Items sold</p>
+    </article>
+    <article class="metric-card">
+        <h3>@revenue.ToString("0.##") €</h3>
+        <p>Estimated revenue</p>
+    </article>
+    <article class="metric-card">
+        <h3>@(orders.Any() ? orders.Max(x => x.CreatedAt).ToString("dd MMM") : "-")</h3>
+        <p>Last order date</p>
+    </article>
+</section>
+
+<section class="content-card">
+    <div class="table-shell">
+        @if (orders.Any())
+        {
+            <table class="table-dark-card">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Client</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                        <th>Created</th>
+                        <th class="text-end">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in orders)
+                    {
+                        var imageUrl = string.IsNullOrWhiteSpace(item.Products?.ImageUrl)
+                            ? "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?auto=format&fit=crop&w=300&q=80"
+                            : item.Products.ImageUrl;
+                        var total = (item.Products?.Price ?? 0) * item.Quantity;
+
+                        <tr>
+                            <td>
+                                <div class="product-cell">
+                                    <img src="@imageUrl" alt="@item.Products?.Name" class="avatar-square" />
+                                    <div>
+                                        <span class="product-name">@item.Products?.Name</span>
+                                        <span class="product-sub">@item.Products?.Size</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><span class="badge-soft">@item.Clients?.UserName</span></td>
+                            <td><span class="badge-stock">@item.Quantity pcs</span></td>
+                            <td><span class="price-tag">@total.ToString("0.##") €</span></td>
+                            <td><span class="badge-date">@item.CreatedAt.ToString("dd MMM yyyy")</span></td>
+                            <td>
+                                <div class="actions-wrap justify-content-end">
+                                    <a asp-action="Edit" asp-route-id="@item.Id" class="action-link">Edit</a>
+                                    <a asp-action="Details" asp-route-id="@item.Id" class="action-link">Details</a>
+                                    <a asp-action="Delete" asp-route-id="@item.Id" class="action-link danger-soft">Delete</a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <div class="empty-state">
+                <h3 class="mb-2 text-white">No orders available</h3>
+                <p class="mb-3">Create the first order to start tracking your sales flow.</p>
+                <a asp-action="Create" class="btn btn-brand rounded-pill px-4">Create order</a>
+            </div>
+        }
+    </div>
+</section>

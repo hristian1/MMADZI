@@ -1,0 +1,93 @@
+﻿@model IEnumerable<ASPMMA.Data.Product>
+
+@{
+    ViewData["Title"] = "Products";
+    var products = Model?.ToList() ?? new List<ASPMMA.Data.Product>();
+   
+}
+
+<section class="section-head mb-4">
+    <div>
+        <h1>Products</h1>
+        <p>Manage the MMA gear catalog with a cleaner premium storefront table.</p>
+    </div>
+    <a asp-action="Create" class="btn btn-brand rounded-pill px-4">+ Add product</a>
+</section>
+
+<section class="metric-grid">
+    <article class="metric-card">
+        <h3>@products.Count</h3>
+        <p>Total listed products</p>
+    </article>
+    <article class="metric-card">
+        <h3>@products.Sum(x => x.StockQuantity)</h3>
+        <p>Total stock units</p>
+    </article>
+    <article class="metric-card">
+        <h3>@products.Count(x => x.StockQuantity > 0)</h3>
+        <p>In-stock items</p>
+    </article>
+    <article class="metric-card">
+        <h3>@(products.Any() ? $"{products.Max(x => x.Price):0.##} €" : "0 €")</h3>
+        <p>Highest listed price</p>
+    </article>
+</section>
+
+<section class="content-card">
+    <div class="table-shell">
+        @if (products.Any())
+        {
+            <table class="table-dark-card">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Stock</th>
+                        <th>Category</th>
+                        <th>Created</th>
+                        <th class="text-end">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in products)
+                    {
+                        var imageUrl = string.IsNullOrWhiteSpace(item.ImageUrl)
+                            ? "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=300&q=80"
+                            : item.ImageUrl;
+
+                        <tr>
+                            <td>
+                                <div class="product-cell">
+                                    <img src="@imageUrl" alt="@item.Name" class="avatar-square" />
+                                    <div>
+                                        <span class="product-name">@item.Name</span>
+                                        <span class="product-sub">@item.Size · @item.Description</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><span class="price-tag">@item.Price.ToString("0.##") €</span></td>
+                            <td><span class="badge-stock">@item.StockQuantity in stock</span></td>
+                            <td><span class="badge-soft">@item.Categorys?.CategoryName</span></td>
+                            <td><span class="badge-date">@item.CreatedAt.ToString("dd MMM yyyy")</span></td>
+                            <td>
+                                <div class="actions-wrap justify-content-end">
+                                    <a asp-action="Edit" asp-route-id="@item.Id" class="action-link">Edit</a>
+                                    <a asp-action="Details" asp-route-id="@item.Id" class="action-link">Details</a>
+                                    <a asp-action="Delete" asp-route-id="@item.Id" class="action-link danger-soft">Delete</a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <div class="empty-state">
+                <h3 class="mb-2 text-white">No products yet</h3>
+                <p class="mb-3">Start building the catalog with your first MMA product.</p>
+                <a asp-action="Create" class="btn btn-brand rounded-pill px-4">Create product</a>
+            </div>
+        }
+    </div>
+</section>

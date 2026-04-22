@@ -1,0 +1,202 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\1212-11\\Desktop\\3\u0436\\ASPMMA2.0\\ASPMMA2.0\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|c:\\users\\1212-11\\desktop\\3\u0436\\aspmma2.0\\aspmma2.0\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|solutionrelative:controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|c:\\users\\1212-11\\desktop\\3\u0436\\aspmma2.0\\aspmma2.0\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|c:\\users\\1212-11\\desktop\\3\u0436\\aspmma2.0\\aspmma2.0\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|c:\\users\\1212-11\\desktop\\3\u0436\\aspmma2.0\\aspmma2.0\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|solutionrelative:views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|c:\\users\\1212-11\\desktop\\3\u0436\\aspmma2.0\\aspmma2.0\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|c:\\users\\1212-11\\desktop\\3\u0436\\aspmma2.0\\aspmma2.0\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|solutionrelative:views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|c:\\users\\1212-11\\desktop\\3\u0436\\aspmma2.0\\aspmma2.0\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|c:\\users\\1212-11\\desktop\\3\u0436\\aspmma2.0\\aspmma2.0\\wwwroot\\css\\custom-styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|solutionrelative:wwwroot\\css\\custom-styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|c:\\users\\1212-11\\desktop\\3\u0436\\aspmma2.0\\aspmma2.0\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|c:\\users\\1212-11\\desktop\\3\u0436\\aspmma2.0\\aspmma2.0\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|solutionrelative:views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|c:\\users\\1212-11\\desktop\\3\u0436\\aspmma2.0\\aspmma2.0\\views\\carts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26F7BD14-33CB-4D4F-A737-605F2B7222B7}|ASPMMA.csproj|solutionrelative:views\\carts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartsController.cs",
+              "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\ASPMMA2.0\\ASPMMA2.0\\Controllers\\CartsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartsController.cs",
+              "ToolTip": "C:\\Users\\1212-11\\Desktop\\3\u0436\\ASPMMA2.0\\ASPMMA2.0\\Controllers\\CartsController.cs",
+              "RelativeToolTip": "Controllers\\CartsController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA3wJgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T09:45:44.095Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\ASPMMA2.0\\ASPMMA2.0\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\1212-11\\Desktop\\3\u0436\\ASPMMA2.0\\ASPMMA2.0\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Controllers\\OrdersController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwBsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T16:11:53.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\ASPMMA2.0\\ASPMMA2.0\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\1212-11\\Desktop\\3\u0436\\ASPMMA2.0\\ASPMMA2.0\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T07:56:51.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "custom-styles.css",
+              "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\ASPMMA2.0\\ASPMMA2.0\\wwwroot\\css\\custom-styles.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\custom-styles.css",
+              "ToolTip": "C:\\Users\\1212-11\\Desktop\\3\u0436\\ASPMMA2.0\\ASPMMA2.0\\wwwroot\\css\\custom-styles.css",
+              "RelativeToolTip": "wwwroot\\css\\custom-styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-30T10:45:19.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\ASPMMA2.0\\ASPMMA2.0\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\1212-11\\Desktop\\3\u0436\\ASPMMA2.0\\ASPMMA2.0\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAswHMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-30T10:22:47.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\ASPMMA2.0\\ASPMMA2.0\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\1212-11\\Desktop\\3\u0436\\ASPMMA2.0\\ASPMMA2.0\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-30T10:19:21.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\ASPMMA2.0\\ASPMMA2.0\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\1212-11\\Desktop\\3\u0436\\ASPMMA2.0\\ASPMMA2.0\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-30T10:18:22.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\ASPMMA2.0\\ASPMMA2.0\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\1212-11\\Desktop\\3\u0436\\ASPMMA2.0\\ASPMMA2.0\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "Views\\Orders\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-30T10:17:00.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\ASPMMA2.0\\ASPMMA2.0\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\1212-11\\Desktop\\3\u0436\\ASPMMA2.0\\ASPMMA2.0\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-30T10:16:24.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\ASPMMA2.0\\ASPMMA2.0\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\1212-11\\Desktop\\3\u0436\\ASPMMA2.0\\ASPMMA2.0\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "Views\\Categories\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-30T10:14:51.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-11\\Desktop\\3\u0436\\ASPMMA2.0\\ASPMMA2.0\\Views\\Carts\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Carts\\Index.cshtml",
+              "ToolTip": "C:\\Users\\1212-11\\Desktop\\3\u0436\\ASPMMA2.0\\ASPMMA2.0\\Views\\Carts\\Index.cshtml",
+              "RelativeToolTip": "Views\\Carts\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-30T10:14:11.865Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

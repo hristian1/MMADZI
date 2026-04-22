@@ -1,0 +1,91 @@
+﻿@model IEnumerable<ASPMMA.Data.Cart>
+
+@{
+    ViewData["Title"] = "Cart";
+    var carts = Model?.ToList() ?? new List<ASPMMA.Data.Cart>();
+    var totalQuantity = carts.Sum(x => x.Quantity);
+}
+
+<section class="section-head mb-4">
+    <div>
+        <h1>Cart</h1>
+        <p>Fast overview of selected products and customer cart activity.</p>
+    </div>
+    <a asp-action="Create" class="btn btn-brand rounded-pill px-4">+ Add to cart</a>
+</section>
+
+<section class="metric-grid">
+    <article class="metric-card">
+        <h3>@carts.Count</h3>
+        <p>Cart entries</p>
+    </article>
+    <article class="metric-card">
+        <h3>@totalQuantity</h3>
+        <p>Total quantity in carts</p>
+    </article>
+    <article class="metric-card">
+        <h3>@carts.Select(x => x.ClientId).Where(x => !string.IsNullOrWhiteSpace(x)).Distinct().Count()</h3>
+        <p>Unique clients</p>
+    </article>
+    <article class="metric-card">
+        <h3>@(carts.Any() ? carts.Max(x => x.CreatedAt).ToString("dd MMM") : "-")</h3>
+        <p>Latest cart update</p>
+    </article>
+</section>
+
+<section class="content-card">
+    <div class="table-shell">
+        @if (carts.Any())
+        {
+            <table class="table-dark-card">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Client</th>
+                        <th>Quantity</th>
+                        <th>Created</th>
+                        <th class="text-end">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in carts)
+                    {
+                        var imageUrl = string.IsNullOrWhiteSpace(item.Products?.ImageUrl)
+                            ? "https://images.unsplash.com/photo-1517438476312-10d79c077509?auto=format&fit=crop&w=300&q=80"
+                            : item.Products.ImageUrl;
+
+                        <tr>
+                            <td>
+                                <div class="product-cell">
+                                    <img src="@imageUrl" alt="@item.Products?.Name" class="avatar-square" />
+                                    <div>
+                                        <span class="product-name">@item.Products?.Name</span>
+                                        <span class="product-sub">@item.Products?.Size</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><span class="badge-soft">@item.Clients?.UserName</span></td>
+                            <td><span class="badge-stock">@item.Quantity pcs</span></td>
+                            <td><span class="badge-date">@item.CreatedAt.ToString("dd MMM yyyy")</span></td>
+                            <td>
+                                <div class="actions-wrap justify-content-end">
+                                    <a asp-action="Edit" asp-route-id="@item.Id" class="action-link">Edit</a>
+                                    <a asp-action="Details" asp-route-id="@item.Id" class="action-link">Details</a>
+                                    <a asp-action="Delete" asp-route-id="@item.Id" class="action-link danger-soft">Delete</a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <div class="empty-state">
+                <h3 class="mb-2 text-white">Cart is empty</h3>
+                <p class="mb-3">No cart records yet. Add products to begin the shopping flow.</p>
+                <a asp-action="Create" class="btn btn-brand rounded-pill px-4">Create cart entry</a>
+            </div>
+        }
+    </div>
+</section>

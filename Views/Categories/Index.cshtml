@@ -1,0 +1,80 @@
+﻿@model IEnumerable<ASPMMA.Data.Category>
+
+@{
+    ViewData["Title"] = "Categories";
+    var categories = Model?.ToList() ?? new List<ASPMMA.Data.Category>();
+}
+
+<section class="section-head mb-4">
+    <div>
+        <h1>Categories</h1>
+        <p>Group your fight gear into clear sections for easier catalog control.</p>
+    </div>
+    <a asp-action="Create" class="btn btn-brand rounded-pill px-4">+ Add category</a>
+</section>
+
+<section class="metric-grid">
+    <article class="metric-card">
+        <h3>@categories.Count</h3>
+        <p>Total categories</p>
+    </article>
+    <article class="metric-card">
+        <h3>@categories.Count(x => !string.IsNullOrWhiteSpace(x.Description))</h3>
+        <p>With description</p>
+    </article>
+    <article class="metric-card">
+        <h3>@categories.Sum(x => x.Products?.Count ?? 0)</h3>
+        <p>Assigned products</p>
+    </article>
+    <article class="metric-card">
+        <h3>@(categories.Any() ? "Ready" : "Start")</h3>
+        <p>Catalog organization state</p>
+    </article>
+</section>
+
+<section class="content-card">
+    <div class="table-shell">
+        @if (categories.Any())
+        {
+            <table class="table-dark-card">
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Description</th>
+                        <th>Products</th>
+                        <th class="text-end">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in categories)
+                    {
+                        <tr>
+                            <td>
+                                <div>
+                                    <span class="product-name">@item.CategoryName</span>
+                                </div>
+                            </td>
+                            <td><span class="product-sub">@item.Description</span></td>
+                            <td><span class="badge-stock">@(item.Products?.Count ?? 0) items</span></td>
+                            <td>
+                                <div class="actions-wrap justify-content-end">
+                                    <a asp-action="Edit" asp-route-id="@item.Id" class="action-link">Edit</a>
+                                    <a asp-action="Details" asp-route-id="@item.Id" class="action-link">Details</a>
+                                    <a asp-action="Delete" asp-route-id="@item.Id" class="action-link danger-soft">Delete</a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <div class="empty-state">
+                <h3 class="mb-2 text-white">No categories yet</h3>
+                <p class="mb-3">Create categories to keep gloves, shorts and gear organized.</p>
+                <a asp-action="Create" class="btn btn-brand rounded-pill px-4">Create category</a>
+            </div>
+        }
+    </div>
+</section>

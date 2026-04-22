@@ -1,0 +1,79 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<section class="hero-card">
+    <span class="hero-kicker">Fight gear store</span>
+    <h1 class="hero-title">Fresh design for an <span>elite MMA shop</span>.</h1>
+    <p class="hero-text">
+        Premium gloves, rashguards, shorts and training essentials in one clean dashboard.
+        The whole look is built to feel fast, modern, and strong on desktop and mobile.
+    </p>
+
+    <div class="d-flex flex-wrap gap-3 mt-4">
+        <a asp-controller="Products" asp-action="Index" class="btn btn-brand btn-lg rounded-pill px-4">Browse products</a>
+        <a asp-controller="Orders" asp-action="Index" class="btn btn-ghost-dark btn-lg rounded-pill px-4">View orders</a>
+    </div>
+
+    <div class="stat-grid">
+        <div class="stat-card">
+            <h3>24/7</h3>
+            <p>Ready storefront feel with clear navigation and strong contrast.</p>
+        </div>
+        <div class="stat-card">
+            <h3>100%</h3>
+            <p>Responsive layout approach with reusable cards, badges and table styles.</p>
+        </div>
+        <div class="stat-card">
+            <h3>Pro</h3>
+            <p>Sharper visual language that fits combat sports and premium equipment.</p>
+        </div>
+    </div>
+</section>
+
+<section class="metric-grid">
+    <article class="metric-card">
+        <h3>Products</h3>
+        <p>Show gear with stronger visual hierarchy, pricing focus and cleaner actions.</p>
+    </article>
+    <article class="metric-card">
+        <h3>Orders</h3>
+        <p>Track purchases with readable totals, dates, usernames and product previews.</p>
+    </article>
+    <article class="metric-card">
+        <h3>Cart</h3>
+        <p>Quick overview of selected items with compact, user-friendly spacing.</p>
+    </article>
+    <article class="metric-card">
+        <h3>Categories</h3>
+        <p>Organize the catalog better with distinct sections and lighter cognitive load.</p>
+    </article>
+</section>
+
+<section class="content-card">
+    <div class="section-head">
+        <div>
+            <h2>What changed</h2>
+            <p>The redesign keeps the ASP.NET MVC structure but upgrades the whole visual system.</p>
+        </div>
+    </div>
+
+    <div class="info-strip">
+        <div class="info-panel">
+            <h3>Visual improvements</h3>
+            <ul>
+                <li>Sticky glass-style navbar with cleaner CTA buttons</li>
+                <li>Dark premium theme with orange fight-brand accents</li>
+                <li>Reusable cards, badges, chips and table rows</li>
+                <li>Better spacing, stronger typography and mobile-ready sections</li>
+            </ul>
+        </div>
+        <div class="info-panel">
+            <h3>Good fit for this project</h3>
+            <p>
+                Your repo already has scaffolded CRUD pages and a simple layout.
+                This version gives it a much more modern storefront vibe without changing the core MVC flow.
+            </p>
+        </div>
+    </div>
+</section>
