@@ -1,0 +1,100 @@
+@page
+@model ASPMMA.Areas.Identity.Pages.Account.Manage.IndexModel
+@using ASPMMA.Data
+
+@{
+    ViewData["Title"] = "Моят профил";
+}
+
+<section class="profile-hero">
+    <div>
+        <span class="hero-kicker">Профил в ММА Арена</span>
+        <h1>Моят профил</h1>
+        <p>@(string.IsNullOrWhiteSpace(Model.CurrentUser.FullName) ? Model.CurrentUser.UserName : Model.CurrentUser.FullName)</p>
+    </div>
+    <div class="actions-wrap">
+        <a asp-controller="Products" asp-action="Index" class="btn btn-brand">Към продуктите</a>
+        <a asp-controller="Carts" asp-action="Index" class="btn btn-ghost-dark">Количка</a>
+    </div>
+</section>
+
+<section class="profile-grid">
+    <aside class="profile-card">
+        <span class="eyebrow">Профил</span>
+        <h2>@Model.CurrentUser.UserName</h2>
+
+        <dl class="profile-details">
+            <div>
+                <dt>Име</dt>
+                <dd>@(string.IsNullOrWhiteSpace(Model.CurrentUser.FullName) ? "-" : Model.CurrentUser.FullName)</dd>
+            </div>
+            <div>
+                <dt>Имейл</dt>
+                <dd>@Model.CurrentUser.Email</dd>
+            </div>
+            <div>
+                <dt>Телефон</dt>
+                <dd>@(string.IsNullOrWhiteSpace(Model.CurrentUser.PhoneNumber) ? "-" : Model.CurrentUser.PhoneNumber)</dd>
+            </div>
+        </dl>
+    </aside>
+
+    <div class="profile-main">
+        <section class="profile-stats">
+            <article>
+                <span>Поръчки</span>
+                <strong>@Model.OrdersCount</strong>
+            </article>
+            <article>
+                <span>Активни</span>
+                <strong>@Model.ActiveOrdersCount</strong>
+            </article>
+            <article>
+                <span>Общо</span>
+                <strong>@Model.TotalSpent.ToString("0.##") лв.</strong>
+            </article>
+        </section>
+
+        <section class="profile-orders-panel">
+            <div class="admin-panel-head">
+                <div>
+                    <h2>Моите поръчки</h2>
+                    <p>Последни покупки, статуси и стойности.</p>
+                </div>
+                <a asp-controller="Orders" asp-action="Index" class="action-link">Виж всички</a>
+            </div>
+
+            @if (Model.RecentOrders.Any())
+            {
+                <div class="profile-order-list">
+                    @foreach (var order in Model.RecentOrders)
+                    {
+                        var total = (order.Products?.Price ?? 0) * order.Quantity;
+
+                        <a asp-controller="Orders" asp-action="Details" asp-route-id="@order.Id" class="profile-order-row">
+                            <div>
+                                <span class="@order.Status.GetBadgeClass()">@order.Status.GetLabel()</span>
+                            </div>
+                            <div class="profile-order-product">
+                                <strong>@order.Products?.Name</strong>
+                                <small>@order.Products?.CatalogNumber · @order.CreatedAt.ToString("dd.MM.yyyy HH:mm")</small>
+                            </div>
+                            <div class="profile-order-total">
+                                <span>@order.Quantity бр.</span>
+                                <strong>@total.ToString("0.##") лв.</strong>
+                            </div>
+                        </a>
+                    }
+                </div>
+            }
+            else
+            {
+                <div class="empty-state compact-empty">
+                    <h3 class="mb-2 text-white">Все още нямаш поръчки</h3>
+                    <p class="mb-3">Когато финализираш количка, поръчките ще се показват тук в профила.</p>
+                    <a asp-controller="Products" asp-action="Index" class="btn btn-brand">Разгледай продукти</a>
+                </div>
+            }
+        </section>
+    </div>
+</section>

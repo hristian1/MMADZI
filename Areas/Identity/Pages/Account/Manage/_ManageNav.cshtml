@@ -1,0 +1,26 @@
+@{
+    var page = ViewContext.RouteData.Values["page"]?.ToString();
+    string ActivePage(string target) => string.Equals(page, target, StringComparison.OrdinalIgnoreCase) ? "active" : string.Empty;
+}
+
+<ul class="nav nav-pills flex-column manage-nav">
+    <li class="nav-item">
+        <a class="nav-link @ActivePage("/Account/Manage/Index")" asp-page="./Index">Профил</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link @ActivePage("/Account/Manage/Email")" asp-page="./Email">Имейл</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link @ActivePage("/Account/Manage/ChangePassword")" asp-page="./ChangePassword">Парола</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link @ActivePage("/Account/Manage/TwoFactorAuthentication")" asp-page="./TwoFactorAuthentication">Двуфакторна защита</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link @ActivePage("/Account/Manage/PersonalData")" asp-page="./PersonalData">Лични данни</a>
+    </li>
+    <li class="nav-item manage-nav-divider"></li>
+    <li class="nav-item">
+        <a class="nav-link manage-orders-link" asp-area="" asp-controller="Orders" asp-action="Index">Моите поръчки</a>
+    </li>
+</ul>

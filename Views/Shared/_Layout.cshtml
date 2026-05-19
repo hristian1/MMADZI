@@ -1,13 +1,13 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="bg">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - MMA ARENA</title>
+    <title>@ViewData["Title"] - ММА Арена</title>
     <script type="importmap"></script>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/MMA ARENA.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ASPMMA.styles.css" asp-append-version="true" />
 </head>
 <body>
     <div class="app-shell">
@@ -17,35 +17,42 @@
                     <a class="navbar-brand brand-mark" asp-controller="Home" asp-action="Index">
                         <span class="brand-badge">MMA</span>
                         <span class="brand-copy">
-                            <strong>MMA ARENA</strong>
-                            <small>Elite gear marketplace</small>
+                            <strong>ММА АРЕНА</strong>
+                            <small>Магазин за бойна екипировка</small>
                         </span>
                     </a>
 
-                    <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Отвори навигацията">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
                     <div class="collapse navbar-collapse" id="mainNav">
                         <ul class="navbar-nav mx-auto gap-lg-2">
                             <li class="nav-item">
-                                <a class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Home" ? "active" : "")" asp-controller="Home" asp-action="Index">Home</a>
+                                <a class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Home" && ViewContext.RouteData.Values["action"]?.ToString() == "Index" ? "active" : "")" asp-controller="Home" asp-action="Index">Начало</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Products" ? "active" : "")" asp-controller="Products" asp-action="Index">Products</a>
+                                <a class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Products" ? "active" : "")" asp-controller="Products" asp-action="Index">Продукти</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Categories" ? "active" : "")" asp-controller="Categories" asp-action="Index">Categories</a>
+                                <a class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Home" && ViewContext.RouteData.Values["action"]?.ToString() == "Contacts" ? "active" : "")" asp-controller="Home" asp-action="Contacts">Контакти</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Orders" ? "active" : "")" asp-controller="Orders" asp-action="Index">Orders</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Carts" ? "active" : "")" asp-controller="Carts" asp-action="Index">Cart</a>
-                            </li>
+                            @if (User.Identity?.IsAuthenticated == true)
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Carts" ? "active" : "")" asp-controller="Carts" asp-action="Index">Количка</a>
+                                </li>
+                            }
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Admin" ? "active" : "")" asp-controller="Admin" asp-action="Index">Админ панел</a>
+                                </li>
+                            }
                         </ul>
 
                         <div class="nav-auth ms-lg-3">
+                            <partial name="_LoginPartial" />
                         </div>
                     </div>
                 </div>
@@ -60,18 +67,15 @@
 
         <footer class="site-footer">
             <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
-                <p class="mb-0">© @DateTime.Now.Year MMA ARENA. Built for fighters, coaches, and grinders.</p>
-                <a asp-controller="Home" asp-action="Privacy" class="footer-link">Privacy</a>
+                <p class="mb-0">© @DateTime.Now.Year ММА Арена. Магазин за ММА аксесоари и бойна екипировка.</p>
+                <a asp-controller="Home" asp-action="Contacts" class="footer-link">Контакти</a>
             </div>
         </footer>
     </div>
 
-    <script src="~/wwwroot/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/wwwroot/js/site.js" asp-append-version="true"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
-
-
-

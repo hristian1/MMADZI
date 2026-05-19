@@ -1,0 +1,12 @@
+@{
+    var controller = ViewContext.RouteData.Values["controller"]?.ToString();
+    var action = ViewContext.RouteData.Values["action"]?.ToString();
+}
+
+<nav class="admin-nav mb-4">
+    <a asp-controller="Admin" asp-action="Index" class="@(controller == "Admin" && action == "Index" ? "admin-nav-link active" : "admin-nav-link")">Табло</a>
+    <a asp-controller="Admin" asp-action="Products" class="@(controller == "Admin" && action == "Products" ? "admin-nav-link active" : "admin-nav-link")">Продукти</a>
+    <a asp-controller="Admin" asp-action="Categories" class="@(controller == "Admin" && action == "Categories" ? "admin-nav-link active" : "admin-nav-link")">Категории</a>
+    <a asp-controller="Admin" asp-action="Users" class="@(controller == "Admin" && action == "Users" ? "admin-nav-link active" : "admin-nav-link")">Профили</a>
+    <a asp-controller="Admin" asp-action="Orders" class="@(controller == "Admin" && action == "Orders" ? "admin-nav-link active" : "admin-nav-link")">Поръчки</a>
+</nav>

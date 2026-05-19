@@ -56,12 +56,18 @@ namespace ASPMMA.Areas.Identity.Pages.Account
             public string Password { get; set; }
 
            
-            [Display(Name = "Remember me?")]
+            [Display(Name = "Запомни ме")]
             public bool RememberMe { get; set; }
         }
 
-        public async Task OnGetAsync(string returnUrl = null)
+        public async Task<IActionResult> OnGetAsync(string returnUrl = null)
         {
+            if (string.Equals(returnUrl, "/Carts", StringComparison.OrdinalIgnoreCase) ||
+                string.Equals(returnUrl, "/Orders", StringComparison.OrdinalIgnoreCase))
+            {
+                return LocalRedirect(returnUrl);
+            }
+
             if (!string.IsNullOrEmpty(ErrorMessage))
             {
                 ModelState.AddModelError(string.Empty, ErrorMessage);
@@ -75,6 +81,8 @@ namespace ASPMMA.Areas.Identity.Pages.Account
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
 
             ReturnUrl = returnUrl;
+
+            return Page();
         }
 
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
@@ -104,7 +112,7 @@ namespace ASPMMA.Areas.Identity.Pages.Account
                 }
                 else
                 {
-                    ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                    ModelState.AddModelError(string.Empty, "Невалидно потребителско име или парола.");
                     return Page();
                 }
             }

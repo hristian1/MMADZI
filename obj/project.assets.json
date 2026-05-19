@@ -9000,11 +9000,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1212-11\\Desktop\\3ж\\ASPMMA2.0\\ASPMMA2.0\\ASPMMA.csproj",
+      "projectUniqueName": "C:\\Users\\1212-11\\Desktop\\Нова папка\\MMADZI\\ASPMMA.csproj",
       "projectName": "ASPMMA",
-      "projectPath": "C:\\Users\\1212-11\\Desktop\\3ж\\ASPMMA2.0\\ASPMMA2.0\\ASPMMA.csproj",
+      "projectPath": "C:\\Users\\1212-11\\Desktop\\Нова папка\\MMADZI\\ASPMMA.csproj",
       "packagesPath": "C:\\Users\\1212-11\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1212-11\\Desktop\\3ж\\ASPMMA2.0\\ASPMMA2.0\\obj\\",
+      "outputPath": "C:\\Users\\1212-11\\Desktop\\Нова папка\\MMADZI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

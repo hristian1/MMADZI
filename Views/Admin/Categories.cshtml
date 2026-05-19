@@ -1,0 +1,37 @@
+@model IEnumerable<ASPMMA.Data.Category>
+
+@{
+    ViewData["Title"] = "Админ категории";
+    var categories = Model.ToList();
+}
+
+<section class="section-head mb-4">
+    <div>
+        <h1>Категории</h1>
+        <p>Подреди каталога така, че продуктите да стоят ясно и бойно чисто.</p>
+    </div>
+    <a asp-controller="Categories" asp-action="Create" class="btn btn-brand">Добави категория</a>
+</section>
+
+<partial name="_AdminNav" />
+
+<section class="product-grid">
+    @foreach (var category in categories)
+    {
+        <article class="shop-card">
+            <div class="shop-card-body">
+                <span class="badge-soft">Категория #@category.Id</span>
+                <h3>@category.CategoryName</h3>
+                <p class="product-sub">@category.Description</p>
+                <div class="shop-meta">
+                    <span class="badge-stock">@category.Products.Count продукта</span>
+                </div>
+                <div class="actions-wrap mt-3">
+                    <a asp-controller="Products" asp-action="Index" asp-route-categoryId="@category.Id" class="action-link">Към продуктите</a>
+                    <a asp-controller="Categories" asp-action="Edit" asp-route-id="@category.Id" class="action-link">Редакция</a>
+                    <a asp-controller="Categories" asp-action="Delete" asp-route-id="@category.Id" class="action-link danger-soft">Изтрий</a>
+                </div>
+            </div>
+        </article>
+    }
+</section>

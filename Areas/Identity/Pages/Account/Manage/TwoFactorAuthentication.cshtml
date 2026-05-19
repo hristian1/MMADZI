@@ -1,0 +1,90 @@
+@page
+@model ASPMMA.Areas.Identity.Pages.Account.Manage.TwoFactorAuthenticationModel
+
+@{
+    ViewData["Title"] = "Двуфакторна защита";
+}
+
+@if (!string.IsNullOrWhiteSpace(Model.StatusMessage))
+{
+    <div class="alert alert-success mb-4">@Model.StatusMessage</div>
+}
+
+@if (!string.IsNullOrWhiteSpace(Model.ErrorMessage))
+{
+    <div class="alert alert-danger mb-4">@Model.ErrorMessage</div>
+}
+
+<section class="account-panel manage-inner-panel">
+    <div class="admin-panel-head">
+        <div>
+            <span class="hero-kicker">Сигурност на профила</span>
+            <h2>Двуфакторна защита</h2>
+            <p>Добави допълнителна защита при вход в профила си.</p>
+        </div>
+        <span class="badge-soft">Защита</span>
+    </div>
+
+    <div class="twofactor-status-card @(Model.IsTwoFactorEnabled ? "enabled" : "disabled")">
+        <div>
+            <span>Статус</span>
+            <strong>@(Model.IsTwoFactorEnabled ? "Включена" : "Изключена")</strong>
+        </div>
+        <div>
+            <span>Профил</span>
+            <strong>@Model.UserName</strong>
+        </div>
+    </div>
+
+    <div class="security-option-grid">
+        <article>
+            <span class="eyebrow">Методи</span>
+            <h3>Методи за потвърждение</h3>
+            @if (Model.Providers.Any())
+            {
+                <div class="provider-list">
+                    @foreach (var provider in Model.Providers)
+                    {
+                        <span>@provider</span>
+                    }
+                </div>
+            }
+            else
+            {
+                <p class="form-note mb-0">Няма активен метод. Най-често това значи, че имейл адресът не е потвърден.</p>
+            }
+        </article>
+
+        <article>
+            <span class="eyebrow">Възстановяване</span>
+            <h3>Кодове за възстановяване</h3>
+            <p class="form-note mb-0">Оставащи кодове за възстановяване: <strong>@Model.RecoveryCodesLeft</strong></p>
+        </article>
+    </div>
+
+    <div class="password-rules">
+        <span>Защита при вход</span>
+        <span>По-сигурен профил</span>
+        <span>Препоръчително за админи</span>
+    </div>
+
+    <div class="form-actions">
+        @if (Model.IsTwoFactorEnabled)
+        {
+            <form method="post" asp-page-handler="Disable" class="inline-form">
+                <button type="submit" class="btn btn-danger">Изключи защитата</button>
+            </form>
+        }
+        else
+        {
+            <form method="post" asp-page-handler="Enable" class="inline-form">
+                <button type="submit" class="btn btn-brand">Включи защитата</button>
+            </form>
+        }
+        <a asp-page="./Index" class="action-link">Назад към профила</a>
+    </div>
+</section>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

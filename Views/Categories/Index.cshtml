@@ -1,80 +1,63 @@
-﻿@model IEnumerable<ASPMMA.Data.Category>
+@model IEnumerable<ASPMMA.Data.Category>
 
 @{
-    ViewData["Title"] = "Categories";
+    ViewData["Title"] = "Категории";
     var categories = Model?.ToList() ?? new List<ASPMMA.Data.Category>();
 }
 
 <section class="section-head mb-4">
     <div>
-        <h1>Categories</h1>
-        <p>Group your fight gear into clear sections for easier catalog control.</p>
+        <h1>Категории</h1>
+        <p>Публичен каталог за разглеждане на продуктите по избрана категория.</p>
     </div>
-    <a asp-action="Create" class="btn btn-brand rounded-pill px-4">+ Add category</a>
+    @if (User.IsInRole("Admin"))
+    {
+        <a asp-action="Create" class="btn btn-brand rounded-pill px-4">Добави категория</a>
+    }
 </section>
 
 <section class="metric-grid">
     <article class="metric-card">
         <h3>@categories.Count</h3>
-        <p>Total categories</p>
+        <p>Общ брой категории</p>
     </article>
     <article class="metric-card">
-        <h3>@categories.Count(x => !string.IsNullOrWhiteSpace(x.Description))</h3>
-        <p>With description</p>
+        <h3>@categories.Sum(x => x.Products.Count)</h3>
+        <p>Продукти в категориите</p>
     </article>
     <article class="metric-card">
-        <h3>@categories.Sum(x => x.Products?.Count ?? 0)</h3>
-        <p>Assigned products</p>
+        <h3>@categories.Count(x => x.Products.Any())</h3>
+        <p>Категории с продукти</p>
     </article>
     <article class="metric-card">
-        <h3>@(categories.Any() ? "Ready" : "Start")</h3>
-        <p>Catalog organization state</p>
+        <h3>@(categories.Any() ? "Готово" : "Старт")</h3>
+        <p>Състояние на каталога</p>
     </article>
 </section>
 
-<section class="content-card">
-    <div class="table-shell">
-        @if (categories.Any())
-        {
-            <table class="table-dark-card">
-                <thead>
-                    <tr>
-                        <th>Category</th>
-                        <th>Description</th>
-                        <th>Products</th>
-                        <th class="text-end">Actions</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var item in categories)
-                    {
-                        <tr>
-                            <td>
-                                <div>
-                                    <span class="product-name">@item.CategoryName</span>
-                                </div>
-                            </td>
-                            <td><span class="product-sub">@item.Description</span></td>
-                            <td><span class="badge-stock">@(item.Products?.Count ?? 0) items</span></td>
-                            <td>
-                                <div class="actions-wrap justify-content-end">
-                                    <a asp-action="Edit" asp-route-id="@item.Id" class="action-link">Edit</a>
-                                    <a asp-action="Details" asp-route-id="@item.Id" class="action-link">Details</a>
-                                    <a asp-action="Delete" asp-route-id="@item.Id" class="action-link danger-soft">Delete</a>
-                                </div>
-                            </td>
-                        </tr>
-                    }
-                </tbody>
-            </table>
-        }
-        else
-        {
-            <div class="empty-state">
-                <h3 class="mb-2 text-white">No categories yet</h3>
-                <p class="mb-3">Create categories to keep gloves, shorts and gear organized.</p>
-                <a asp-action="Create" class="btn btn-brand rounded-pill px-4">Create category</a>
+<section class="product-grid">
+    @foreach (var item in categories)
+    {
+        <article class="shop-card">
+            <div class="shop-card-body">
+                <span class="badge-soft">ID: @item.Id</span>
+                <h3>@item.CategoryName</h3>
+                <p class="product-sub">@item.Description</p>
+                <div class="shop-meta">
+                    <span class="badge-stock">@item.Products.Count продукта</span>
+                </div>
+                <div class="actions-wrap mt-3">
+                    <a asp-controller="Products" asp-action="Index" asp-route-categoryId="@item.Id" class="btn btn-brand btn-sm">Виж продукти</a>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="action-link">Детайли</a>
+                </div>
+                @if (User.IsInRole("Admin"))
+                {
+                    <div class="actions-wrap mt-2">
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="action-link">Редакция</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="action-link danger-soft">Изтрий</a>
+                    </div>
+                }
             </div>
-        }
-    </div>
+        </article>
+    }
 </section>

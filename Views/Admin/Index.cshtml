@@ -1,0 +1,183 @@
+@model ASPMMA.Models.AdminDashboardViewModel
+@using ASPMMA.Data
+
+@{
+    ViewData["Title"] = "Админ панел";
+    var activeOrders = Model.RecentOrders.Count(o => o.Status == OrderStatus.New || o.Status == OrderStatus.Processing || o.Status == OrderStatus.Shipped);
+}
+
+<section class="admin-command-center">
+    <div>
+        <span class="hero-kicker">Админ управление</span>
+        <h1>Контролен център на ММА Арена</h1>
+        <p>Каталог, наличности, профили и поръчки в един стегнат работен панел.</p>
+    </div>
+
+    <div class="admin-command-actions">
+        <a asp-controller="Products" asp-action="Create" class="btn btn-brand">Нов продукт</a>
+        <a asp-controller="Categories" asp-action="Create" class="btn btn-ghost-dark">Нова категория</a>
+    </div>
+</section>
+
+<partial name="_AdminNav" />
+
+@if (TempData["AdminSuccess"] is string adminSuccess)
+{
+    <div class="alert alert-success mb-4">@adminSuccess</div>
+}
+
+@if (TempData["AdminError"] is string adminError)
+{
+    <div class="alert alert-danger mb-4">@adminError</div>
+}
+
+<section class="admin-kpi-grid">
+    <article class="admin-kpi-card primary">
+        <span>Оборот</span>
+        <strong>@Model.Revenue.ToString("0.##") лв.</strong>
+        <small>без отказани поръчки</small>
+    </article>
+    <article class="admin-kpi-card">
+        <span>Продукти</span>
+        <strong>@Model.ProductsCount</strong>
+        <small>активни артикули</small>
+    </article>
+    <article class="admin-kpi-card">
+        <span>Категории</span>
+        <strong>@Model.CategoriesCount</strong>
+        <small>структура на каталога</small>
+    </article>
+    <article class="admin-kpi-card">
+        <span>Профили</span>
+        <strong>@Model.UsersCount</strong>
+        <small>клиенти и админи</small>
+    </article>
+    <article class="admin-kpi-card alert-kpi">
+        <span>За обработка</span>
+        <strong>@Model.PendingOrdersCount</strong>
+        <small>нови и текущи поръчки</small>
+    </article>
+</section>
+
+<section class="admin-work-grid">
+    <article class="admin-panel">
+        <div class="admin-panel-head">
+            <div>
+                <h2>Бързи действия</h2>
+                <p>Най-честите админ операции, без обикаляне из менюта.</p>
+            </div>
+        </div>
+
+        <div class="admin-action-list">
+            <a asp-controller="Admin" asp-action="Products" class="admin-action-row">
+                <span class="admin-action-icon">ПР</span>
+                <div>
+                    <strong>Продукти</strong>
+                    <small>наличности, снимки, цени и редакция</small>
+                </div>
+                <em>@Model.ProductsCount</em>
+            </a>
+            <a asp-controller="Admin" asp-action="Categories" class="admin-action-row">
+                <span class="admin-action-icon">КТ</span>
+                <div>
+                    <strong>Категории</strong>
+                    <small>групи за ръкавици, протектори и аксесоари</small>
+                </div>
+                <em>@Model.CategoriesCount</em>
+            </a>
+            <a asp-controller="Admin" asp-action="Users" class="admin-action-row">
+                <span class="admin-action-icon">ПФ</span>
+                <div>
+                    <strong>Профили</strong>
+                    <small>преглед и нулиране на пароли</small>
+                </div>
+                <em>@Model.UsersCount</em>
+            </a>
+            <a asp-controller="Admin" asp-action="Orders" class="admin-action-row">
+                <span class="admin-action-icon">ПР</span>
+                <div>
+                    <strong>Поръчки</strong>
+                    <small>статуси, изпълнение и контрол</small>
+                </div>
+                <em>@Model.OrdersCount</em>
+            </a>
+        </div>
+    </article>
+
+    <article class="admin-panel">
+        <div class="admin-panel-head">
+            <div>
+                <h2>Ниска наличност</h2>
+                <p>Артикули, които трябва да се заредят скоро.</p>
+            </div>
+            <span class="badge-soft">@Model.LowStockProducts.Count продукта</span>
+        </div>
+
+        @if (Model.LowStockProducts.Any())
+        {
+            <div class="admin-stock-list">
+                @foreach (var product in Model.LowStockProducts)
+                {
+                    <div class="admin-stock-row">
+                        <div>
+                            <strong>@product.Name</strong>
+                            <small>@product.Categorys?.CategoryName · @product.CatalogNumber</small>
+                        </div>
+                        <div class="actions-wrap align-items-center">
+                            <span class="badge-stock">@product.StockQuantity бр.</span>
+                            <a asp-controller="Products" asp-action="Edit" asp-route-id="@product.Id" class="action-link">Редакция</a>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+        else
+        {
+            <div class="empty-state compact-empty">
+                <h3 class="mb-2 text-white">Наличностите са стабилни</h3>
+                <p class="mb-0">Няма продукти под прага за внимание.</p>
+            </div>
+        }
+    </article>
+</section>
+
+<section class="admin-panel mt-4">
+    <div class="admin-panel-head">
+        <div>
+            <h2>Последни поръчки</h2>
+            <p>@activeOrders активни от последните @Model.RecentOrders.Count показани поръчки.</p>
+        </div>
+        <a asp-controller="Admin" asp-action="Orders" class="action-link">Всички поръчки</a>
+    </div>
+
+    @if (Model.RecentOrders.Any())
+    {
+        <div class="admin-order-feed">
+            @foreach (var order in Model.RecentOrders)
+            {
+                var total = (order.Products?.Price ?? 0) * order.Quantity;
+
+                <a asp-controller="Orders" asp-action="Details" asp-route-id="@order.Id" class="admin-order-row">
+                    <div class="admin-order-main">
+                        <span class="@order.Status.GetBadgeClass()">@order.Status.GetLabel()</span>
+                        <div>
+                            <strong>@order.Products?.Name</strong>
+                            <small>@order.Clients?.FullName · @order.CreatedAt.ToString("dd.MM.yyyy HH:mm")</small>
+                        </div>
+                    </div>
+                    <div class="admin-order-meta">
+                        <span>@order.Quantity бр.</span>
+                        <strong>@total.ToString("0.##") лв.</strong>
+                    </div>
+                </a>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="empty-state compact-empty">
+            <h3 class="mb-2 text-white">Все още няма поръчки</h3>
+            <p class="mb-0">Когато клиентите финализират количка, поръчките ще се появят тук.</p>
+        </div>
+    }
+</section>

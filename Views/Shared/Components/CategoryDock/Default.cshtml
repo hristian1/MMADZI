@@ -1,0 +1,57 @@
+@model IReadOnlyList<ASPMMA.Models.CategoryDockItemViewModel>
+
+@{
+    var currentCategoryId = Context.Request.Query["categoryId"].ToString();
+    var isCategoryView = !string.IsNullOrWhiteSpace(currentCategoryId);
+    var currentPath = (Context.Request.Path.Value ?? string.Empty).TrimEnd('/');
+    var isProductsPage = string.Equals(currentPath, "/Products", StringComparison.OrdinalIgnoreCase)
+        || string.Equals(currentPath, "/Products/Index", StringComparison.OrdinalIgnoreCase);
+}
+
+@if (isProductsPage)
+{
+    <div class="category-dock @(isCategoryView ? "is-open is-pinned" : "")" data-category-dock>
+        <button class="category-dock-tab" type="button" aria-expanded="@(isCategoryView ? "true" : "false")" aria-controls="categoryDockPanel" data-category-dock-toggle>
+            <span></span>
+            <strong>Категории</strong>
+        </button>
+
+        <aside id="categoryDockPanel" class="category-dock-panel" aria-label="Меню с категории">
+            <div class="category-dock-head">
+                <div>
+                    <span class="hero-kicker">Каталог</span>
+                    <h2>Категории</h2>
+                    <p>Избери тип екипировка и отвори продуктите директно.</p>
+                </div>
+                <button class="category-dock-close" type="button" aria-label="Затвори менюто" data-category-dock-close>×</button>
+            </div>
+
+            <div class="category-dock-list">
+                <a asp-controller="Products" asp-action="Index" class="category-dock-link @(string.IsNullOrWhiteSpace(currentCategoryId) ? "active" : "")">
+                    <span class="category-dock-mark">Вс</span>
+                    <span>
+                        <strong>Всички продукти</strong>
+                        <small>Пълен каталог</small>
+                    </span>
+                </a>
+
+                @foreach (var category in Model)
+                {
+                    var isActive = currentCategoryId == category.Id.ToString();
+
+                    <a asp-controller="Products" asp-action="Index" asp-route-categoryId="@category.Id" class="category-dock-link @(isActive ? "active" : "")">
+                        <span class="category-dock-mark">@category.Name.Substring(0, Math.Min(2, category.Name.Length)).ToUpper()</span>
+                        <span>
+                            <strong>@category.Name</strong>
+                            <small>@category.ProductsCount продукта</small>
+                        </span>
+                    </a>
+                }
+            </div>
+
+            <a asp-controller="Categories" asp-action="Index" class="category-dock-all">Виж всички категории</a>
+        </aside>
+
+        <button class="category-dock-backdrop" type="button" aria-label="Затвори менюто" data-category-dock-close></button>
+    </div>
+}

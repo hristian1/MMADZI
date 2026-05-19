@@ -1,45 +1,39 @@
-﻿@model ASPMMA.Data.Cart
+@model ASPMMA.Data.Cart
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Ново добавяне в количка";
 }
 
-<h1>Create</h1>
+<section class="section-head mb-4">
+    <div>
+        <h1>Ново добавяне в количка</h1>
+        <p>Добави продукт и количество към количката на текущия админ профил.</p>
+    </div>
+    <a asp-action="Index" class="btn btn-ghost-dark">Назад</a>
+</section>
 
-<h4>Cart</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<section class="content-card editor-card">
+    <form asp-action="Create" class="stacked-form">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="form-grid">
             <div class="form-group">
-                <label asp-for="ProductId" class="control-label"></label>
-                <select asp-for="ProductId" class ="form-control" asp-items="ViewBag.ProductId"></select>
+                <label asp-for="ProductId" class="control-label">Продукт</label>
+                <select asp-for="ProductId" class="form-control" asp-items="ViewBag.ProductId"></select>
             </div>
             <div class="form-group">
-                <label asp-for="Quantity" class="control-label"></label>
-                <input asp-for="Quantity" class="form-control" />
+                <label asp-for="Quantity" class="control-label">Количество</label>
+                <input asp-for="Quantity" class="form-control" min="1" />
                 <span asp-validation-for="Quantity" class="text-danger"></span>
             </div>
-           @*  <div class="form-group">
-                <label asp-for="ApplicationUserId" class="control-label"></label>
-                <select asp-for="ApplicationUserId" class ="form-control" asp-items="ViewBag.ApplicationUserId"></select>
-            </div> *@
-            @* <div class="form-group">
-                <label asp-for="CreatedAt" class="control-label"></label>
-                <input asp-for="CreatedAt" class="form-control" />
-                <span asp-validation-for="CreatedAt" class="text-danger"></span>
-            </div> *@
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
+        </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+        <div class="form-actions">
+            <button type="submit" class="btn btn-brand">Добави в количката</button>
+            <a asp-action="Index" class="action-link">Отказ</a>
+        </div>
+    </form>
+</section>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

@@ -1,0 +1,24 @@
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<section class="section-head mb-4">
+    <div>
+        <h1>Настройки на профила</h1>
+        <p>Управлявай профила, сигурността, имейла и личните си данни.</p>
+    </div>
+</section>
+
+<section class="manage-page-grid">
+    <aside class="manage-sidebar">
+        <partial name="_ManageNav" />
+    </aside>
+
+    <div class="manage-content">
+        @RenderBody()
+    </div>
+</section>
+
+@section Scripts {
+    @await RenderSectionAsync("Scripts", required: false)
+}

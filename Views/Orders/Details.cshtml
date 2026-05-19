@@ -1,42 +1,61 @@
-﻿@model ASPMMA.Data.Order
+@model ASPMMA.Data.Order
+@using ASPMMA.Data
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Детайли за поръчка";
+    var unitPrice = Model.Products?.Price ?? 0;
+    var total = unitPrice * Model.Quantity;
+    var imageUrl = string.IsNullOrWhiteSpace(Model.Products?.ImageUrl)
+        ? "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?auto=format&fit=crop&w=700&q=80"
+        : Model.Products.ImageUrl;
 }
 
-<h1>Details</h1>
+<section class="section-head mb-4">
+    <div>
+        <h1>Поръчка #@Model.Id</h1>
+        <p>@Model.Clients?.FullName · @Model.CreatedAt.ToString("dd.MM.yyyy HH:mm")</p>
+    </div>
+    <div class="actions-wrap">
+        @if (User.IsInRole("Admin"))
+        {
+            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-brand">Смени статус</a>
+        }
+        <a asp-action="Index" class="btn btn-ghost-dark">Назад</a>
+    </div>
+</section>
 
-<div>
-    <h4>Order</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Products)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Products.Id)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Quantity)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Quantity)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Clients)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Clients.Id)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CreatedAt)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CreatedAt)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+<section class="record-card">
+    <img src="@imageUrl" alt="@Model.Products?.Name" class="record-image" />
+    <div class="record-body">
+        <span class="@Model.Status.GetBadgeClass()">@Model.Status.GetLabel()</span>
+        <h2>@Model.Products?.Name</h2>
+        <p>@Model.Products?.Description</p>
+
+        <dl class="record-list">
+            <div>
+                <dt>Клиент</dt>
+                <dd>@Model.Clients?.FullName</dd>
+            </div>
+            <div>
+                <dt>Потребител</dt>
+                <dd>@Model.Clients?.UserName</dd>
+            </div>
+            <div>
+                <dt>Количество</dt>
+                <dd>@Model.Quantity бр.</dd>
+            </div>
+            <div>
+                <dt>Ед. цена</dt>
+                <dd>@unitPrice.ToString("0.##") лв.</dd>
+            </div>
+            <div>
+                <dt>Общо</dt>
+                <dd>@total.ToString("0.##") лв.</dd>
+            </div>
+            <div>
+                <dt>Каталожен номер</dt>
+                <dd>@Model.Products?.CatalogNumber</dd>
+            </div>
+        </dl>
+    </div>
+</section>

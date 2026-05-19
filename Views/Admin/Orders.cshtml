@@ -1,0 +1,111 @@
+@model ASPMMA.Models.AdminOrdersViewModel
+@using ASPMMA.Data
+
+@{
+    ViewData["Title"] = "Админ поръчки";
+    var orders = Model.Orders.ToList();
+    var activeOrders = orders.Count(x => x.Status != OrderStatus.Completed && x.Status != OrderStatus.Cancelled);
+}
+
+<section class="section-head mb-4">
+    <div>
+        <h1>Поръчки</h1>
+        <p>Смяна на статуси, следене на клиента и контрол върху изпълнението.</p>
+    </div>
+    <a asp-controller="Orders" asp-action="Create" class="btn btn-brand">Добави поръчка</a>
+</section>
+
+<partial name="_AdminNav" />
+
+@if (TempData["AdminSuccess"] is string adminSuccess)
+{
+    <div class="alert alert-success mb-4">@adminSuccess</div>
+}
+
+@if (TempData["AdminError"] is string adminError)
+{
+    <div class="alert alert-danger mb-4">@adminError</div>
+}
+
+<section class="metric-grid">
+    <article class="metric-card">
+        <h3>@orders.Count</h3>
+        <p>Всички поръчки</p>
+    </article>
+    <article class="metric-card">
+        <h3>@activeOrders</h3>
+        <p>Активни поръчки</p>
+    </article>
+    <article class="metric-card">
+        <h3>@orders.Count(x => x.Status == OrderStatus.Cancelled)</h3>
+        <p>Отказани</p>
+    </article>
+    <article class="metric-card">
+        <h3>@orders.Count(x => x.Status == OrderStatus.Completed)</h3>
+        <p>Завършени</p>
+    </article>
+</section>
+
+<section class="content-card">
+    <div class="table-shell">
+        <table class="table-dark-card">
+            <thead>
+                <tr>
+                    <th>Продукт</th>
+                    <th>Клиент</th>
+                    <th>Количество</th>
+                    <th>Статус</th>
+                    <th>Дата</th>
+                    <th class="text-end">Управление</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var order in orders)
+                {
+                    <tr>
+                        <td>
+                            <div class="product-cell">
+                                <img src="@(string.IsNullOrWhiteSpace(order.Products?.ImageUrl) ? "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?auto=format&fit=crop&w=300&q=80" : order.Products.ImageUrl)" alt="@order.Products?.Name" class="avatar-square" />
+                                <div>
+                                    <span class="product-name">@order.Products?.Name</span>
+                                    <span class="product-sub">@order.Products?.CatalogNumber</span>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <span class="product-name">@order.Clients?.FullName</span>
+                            <span class="product-sub">@order.Clients?.UserName</span>
+                        </td>
+                        <td><span class="badge-stock">@order.Quantity бр.</span></td>
+                        <td><span class="@order.Status.GetBadgeClass()">@order.Status.GetLabel()</span></td>
+                        <td><span class="badge-date">@order.CreatedAt.ToString("dd.MM.yyyy HH:mm")</span></td>
+                        <td>
+                            <div class="actions-wrap justify-content-end">
+                                <form asp-action="UpdateOrderStatus" method="post" class="status-form">
+                                    @Html.AntiForgeryToken()
+                                    <input type="hidden" name="id" value="@order.Id" />
+                                    <select name="status" class="form-select form-select-sm">
+                                    @foreach (var status in Model.AvailableStatuses)
+                                    {
+                                        if (status == order.Status)
+                                        {
+                                            <option value="@status" selected>@status.GetLabel()</option>
+                                        }
+                                        else
+                                        {
+                                            <option value="@status">@status.GetLabel()</option>
+                                        }
+                                    }
+                                </select>
+                                    <button type="submit" class="btn btn-brand btn-sm">Запази</button>
+                                </form>
+                                <a asp-controller="Orders" asp-action="Details" asp-route-id="@order.Id" class="action-link">Детайли</a>
+                                <a asp-controller="Orders" asp-action="Delete" asp-route-id="@order.Id" class="action-link danger-soft">Изтрий</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</section>

@@ -1,95 +1,121 @@
-﻿@model IEnumerable<ASPMMA.Data.Order>
+@model IEnumerable<ASPMMA.Data.Order>
+@using ASPMMA.Data
 
 @{
-    ViewData["Title"] = "Orders";
-    var orders = Model?.ToList() ?? new List<ASPMMA.Data.Order>();
-    var revenue = orders.Sum(x => (x.Products?.Price ?? 0) * x.Quantity);
+    ViewData["Title"] = "Поръчки";
+    var orders = Model?.ToList() ?? new List<Order>();
+    var revenue = orders.Where(x => x.Status != OrderStatus.Cancelled).Sum(x => (x.Products?.Price ?? 0) * x.Quantity);
     var totalItems = orders.Sum(x => x.Quantity);
 }
 
 <section class="section-head mb-4">
     <div>
-        <h1>Orders</h1>
-        <p>Track completed purchases with totals, quantities and customer details.</p>
+        <h1>Поръчки</h1>
+        <p>Проследяване на клиентски поръчки, суми и текущ статус.</p>
     </div>
-    <a asp-action="Create" class="btn btn-brand rounded-pill px-4">+ New order</a>
+    @if (User.IsInRole("Admin"))
+    {
+        <a asp-controller="Admin" asp-action="Orders" class="btn btn-brand rounded-pill px-4">Админ управление</a>
+    }
 </section>
 
-<section class="metric-grid">
-    <article class="metric-card">
-        <h3>@orders.Count</h3>
-        <p>Total orders</p>
-    </article>
-    <article class="metric-card">
-        <h3>@totalItems</h3>
-        <p>Items sold</p>
-    </article>
-    <article class="metric-card">
-        <h3>@revenue.ToString("0.##") €</h3>
-        <p>Estimated revenue</p>
-    </article>
-    <article class="metric-card">
-        <h3>@(orders.Any() ? orders.Max(x => x.CreatedAt).ToString("dd MMM") : "-")</h3>
-        <p>Last order date</p>
-    </article>
-</section>
+@if (TempData["OrderSuccess"] is string orderSuccess)
+{
+    <div class="alert alert-success mb-4">@orderSuccess</div>
+}
 
-<section class="content-card">
-    <div class="table-shell">
-        @if (orders.Any())
-        {
-            <table class="table-dark-card">
-                <thead>
-                    <tr>
-                        <th>Product</th>
-                        <th>Client</th>
-                        <th>Quantity</th>
-                        <th>Total</th>
-                        <th>Created</th>
-                        <th class="text-end">Actions</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var item in orders)
-                    {
-                        var imageUrl = string.IsNullOrWhiteSpace(item.Products?.ImageUrl)
-                            ? "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?auto=format&fit=crop&w=300&q=80"
-                            : item.Products.ImageUrl;
-                        var total = (item.Products?.Price ?? 0) * item.Quantity;
+@if (!User.Identity?.IsAuthenticated ?? true)
+{
+    <section class="content-card">
+        <div class="empty-state">
+            <h3 class="mb-2 text-white">Поръчките са достъпни за регистрирани клиенти</h3>
+            <p class="mb-3">Влез в профила си, за да видиш историята и статуса на направените поръчки.</p>
+            <a asp-area="Identity" asp-page="/Account/Login" asp-route-returnUrl="@Url.Action("Index", "Orders")" class="btn btn-brand">Вход</a>
+        </div>
+    </section>
+}
+else
+{
+    <section class="metric-grid">
+        <article class="metric-card">
+            <h3>@orders.Count</h3>
+            <p>Общ брой поръчки</p>
+        </article>
+        <article class="metric-card">
+            <h3>@totalItems</h3>
+            <p>Поръчани артикули</p>
+        </article>
+        <article class="metric-card">
+            <h3>@revenue.ToString("0.##") лв.</h3>
+            <p>Обща стойност</p>
+        </article>
+        <article class="metric-card">
+            <h3>@(orders.Any() ? orders.Max(x => x.CreatedAt).ToString("dd.MM") : "-")</h3>
+            <p>Последна поръчка</p>
+        </article>
+    </section>
 
+    <section class="content-card">
+        <div class="table-shell">
+            @if (orders.Any())
+            {
+                <table class="table-dark-card">
+                    <thead>
                         <tr>
-                            <td>
-                                <div class="product-cell">
-                                    <img src="@imageUrl" alt="@item.Products?.Name" class="avatar-square" />
-                                    <div>
-                                        <span class="product-name">@item.Products?.Name</span>
-                                        <span class="product-sub">@item.Products?.Size</span>
-                                    </div>
-                                </div>
-                            </td>
-                            <td><span class="badge-soft">@item.Clients?.UserName</span></td>
-                            <td><span class="badge-stock">@item.Quantity pcs</span></td>
-                            <td><span class="price-tag">@total.ToString("0.##") €</span></td>
-                            <td><span class="badge-date">@item.CreatedAt.ToString("dd MMM yyyy")</span></td>
-                            <td>
-                                <div class="actions-wrap justify-content-end">
-                                    <a asp-action="Edit" asp-route-id="@item.Id" class="action-link">Edit</a>
-                                    <a asp-action="Details" asp-route-id="@item.Id" class="action-link">Details</a>
-                                    <a asp-action="Delete" asp-route-id="@item.Id" class="action-link danger-soft">Delete</a>
-                                </div>
-                            </td>
+                            <th>Продукт</th>
+                            <th>Клиент</th>
+                            <th>Количество</th>
+                            <th>Статус</th>
+                            <th>Общо</th>
+                            <th>Дата</th>
+                            <th class="text-end">Действия</th>
                         </tr>
-                    }
-                </tbody>
-            </table>
-        }
-        else
-        {
-            <div class="empty-state">
-                <h3 class="mb-2 text-white">No orders available</h3>
-                <p class="mb-3">Create the first order to start tracking your sales flow.</p>
-                <a asp-action="Create" class="btn btn-brand rounded-pill px-4">Create order</a>
-            </div>
-        }
-    </div>
-</section>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in orders)
+                        {
+                            var imageUrl = string.IsNullOrWhiteSpace(item.Products?.ImageUrl)
+                                ? "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?auto=format&fit=crop&w=300&q=80"
+                                : item.Products.ImageUrl;
+                            var total = (item.Products?.Price ?? 0) * item.Quantity;
+
+                            <tr>
+                                <td>
+                                    <div class="product-cell">
+                                        <img src="@imageUrl" alt="@item.Products?.Name" class="avatar-square" />
+                                        <div>
+                                            <span class="product-name">@item.Products?.Name</span>
+                                            <span class="product-sub">@item.Products?.CatalogNumber</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><span class="badge-soft">@item.Clients?.FullName</span></td>
+                                <td><span class="badge-stock">@item.Quantity бр.</span></td>
+                                <td><span class="@item.Status.GetBadgeClass()">@item.Status.GetLabel()</span></td>
+                                <td><span class="price-tag">@total.ToString("0.##") лв.</span></td>
+                                <td><span class="badge-date">@item.CreatedAt.ToString("dd.MM.yyyy")</span></td>
+                                <td>
+                                    <div class="actions-wrap justify-content-end">
+                                        <a asp-action="Details" asp-route-id="@item.Id" class="action-link">Детайли</a>
+                                        @if (User.IsInRole("Admin"))
+                                        {
+                                            <a asp-action="Edit" asp-route-id="@item.Id" class="action-link">Статус</a>
+                                            <a asp-action="Delete" asp-route-id="@item.Id" class="action-link danger-soft">Изтрий</a>
+                                        }
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <div class="empty-state">
+                    <h3 class="mb-2 text-white">Все още няма поръчки</h3>
+                    <p class="mb-0">След като натиснеш „Поръчай“ от количката, записите ще се появят тук.</p>
+                </div>
+            }
+        </div>
+    </section>
+}

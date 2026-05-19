@@ -59,37 +59,38 @@ namespace ASPMMA.Areas.Identity.Pages.Account
         public class InputModel
         {
             [Required]
-            [Display(Name = "UserName")]
+            [Display(Name = "Потребителско име")]
             public string UserName { get; set; }
 
             [Required]
-            [Display(Name = "FirstName")]
+            [Display(Name = "Име")]
             public string FirstName { get; set; }
 
             [Required]
-            [Display(Name = " LastName")]
+            [Display(Name = "Фамилия")]
             public string LastName { get; set; }
 
-            //[Required]
-            //[Display(Name = "Phone")]
-            //public int Phone { get; set; }
+            [Required]
+            [Phone]
+            [Display(Name = "Телефон")]
+            public string Phone { get; set; }
 
             [Required]
             [EmailAddress]
-            [Display(Name = "Email")]
+            [Display(Name = "Имейл")]
             public string Email { get; set; }
 
 
             [Required]
-            [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
+            [StringLength(100, ErrorMessage = "{0} трябва да бъде поне {2} и най-много {1} символа.", MinimumLength = 6)]
             [DataType(DataType.Password)]
-            [Display(Name = "Password")]
+            [Display(Name = "Парола")]
             public string Password { get; set; }
 
 
             [DataType(DataType.Password)]
-            [Display(Name = "Confirm password")]
-            [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
+            [Display(Name = "Потвърди паролата")]
+            [Compare("Password", ErrorMessage = "Паролата и потвърждението не съвпадат.")]
             public string ConfirmPassword { get; set; }
         }
 
@@ -113,7 +114,7 @@ namespace ASPMMA.Areas.Identity.Pages.Account
                 user.UserName = Input.UserName;
                 user.FirstName = Input.FirstName;
                 user.LastName = Input.LastName;
-                
+                user.PhoneNumber = Input.Phone;
 
 
                 await _userStore.SetUserNameAsync(user, Input.UserName, CancellationToken.None);
@@ -124,7 +125,7 @@ namespace ASPMMA.Areas.Identity.Pages.Account
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User created a new account with password.");
-                    await _userManager.AddToRoleAsync(user, "User");
+                    await _userManager.AddToRoleAsync(user, "Client");
 
                     var userId = await _userManager.GetUserIdAsync(user);
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
@@ -135,8 +136,8 @@ namespace ASPMMA.Areas.Identity.Pages.Account
                         values: new { area = "Identity", userId = userId, code = code, returnUrl = returnUrl },
                         protocol: Request.Scheme);
 
-                    await _emailSender.SendEmailAsync(Input.Email, "Confirm your email",
-                        $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
+                    await _emailSender.SendEmailAsync(Input.Email, "Потвърди имейла си",
+                        $"Потвърди профила си, като <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>натиснеш тук</a>.");
 
                     if (_userManager.Options.SignIn.RequireConfirmedAccount)
                     {

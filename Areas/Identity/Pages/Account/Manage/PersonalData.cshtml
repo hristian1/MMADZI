@@ -1,0 +1,58 @@
+@page
+@model ASPMMA.Areas.Identity.Pages.Account.Manage.PersonalDataModel
+
+@{
+    ViewData["Title"] = "Лични данни";
+}
+
+@if (!string.IsNullOrWhiteSpace(Model.StatusMessage))
+{
+    <div class="alert alert-success mb-4">@Model.StatusMessage</div>
+}
+
+<section class="account-panel manage-inner-panel">
+    <div class="admin-panel-head">
+        <div>
+            <span class="hero-kicker">Данни на профила</span>
+            <h2>Лични данни</h2>
+            <p>Преглед на информацията, която е записана за твоя профил в ММА Арена.</p>
+        </div>
+        <span class="badge-soft">Профил</span>
+    </div>
+
+    <div class="personal-data-summary">
+        <div>
+            <span>Профил</span>
+            <strong>@(string.IsNullOrWhiteSpace(Model.FullName) ? Model.UserName : Model.FullName)</strong>
+        </div>
+        <div>
+            <span>Имейл</span>
+            <strong>@(string.IsNullOrWhiteSpace(Model.Email) ? "-" : Model.Email)</strong>
+        </div>
+    </div>
+
+    <div class="personal-data-grid">
+        @foreach (var item in Model.ProfileRows)
+        {
+            <div class="personal-data-row">
+                <span>@item.Label</span>
+                <strong>@(string.IsNullOrWhiteSpace(item.Value) ? "-" : item.Value)</strong>
+            </div>
+        }
+    </div>
+
+    <div class="data-export-card">
+        <div>
+            <span class="eyebrow">Експорт</span>
+            <h3>Изтегли личните данни</h3>
+            <p>Файлът съдържа основните данни от профила ти във формат JSON.</p>
+        </div>
+        <form method="post" asp-page-handler="Download">
+            <button type="submit" class="btn btn-brand">Изтегли JSON</button>
+        </form>
+    </div>
+
+    <div class="form-actions">
+        <a asp-page="./Index" class="action-link">Назад към профила</a>
+    </div>
+</section>

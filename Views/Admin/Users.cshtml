@@ -1,0 +1,69 @@
+@model ASPMMA.Models.AdminUsersViewModel
+
+@{
+    ViewData["Title"] = "Админ профили";
+}
+
+<section class="section-head mb-4">
+    <div>
+        <h1>Профили</h1>
+        <p>Всички потребители, роли и бързо нулиране на пароли.</p>
+    </div>
+    <span class="badge-soft">Парола по подразбиране: @Model.DefaultPassword</span>
+</section>
+
+<partial name="_AdminNav" />
+
+@if (TempData["AdminSuccess"] is string adminSuccess)
+{
+    <div class="alert alert-success mb-4">@adminSuccess</div>
+}
+
+@if (TempData["AdminError"] is string adminError)
+{
+    <div class="alert alert-danger mb-4">@adminError</div>
+}
+
+<section class="content-card">
+    <div class="table-shell">
+        <table class="table-dark-card">
+            <thead>
+                <tr>
+                    <th>Профил</th>
+                    <th>Контакти</th>
+                    <th>Роля</th>
+                    <th>Поръчки</th>
+                    <th>Количка</th>
+                    <th class="text-end">Действия</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in Model.Users)
+                {
+                    <tr>
+                        <td>
+                            <span class="product-name">@user.FullName</span>
+                            <span class="product-sub">@user.UserName</span>
+                        </td>
+                        <td>
+                            <span class="product-name">@user.Email</span>
+                            <span class="product-sub">@user.Phone</span>
+                        </td>
+                        <td><span class="badge-date">@user.Roles</span></td>
+                        <td><span class="badge-stock">@user.OrdersCount</span></td>
+                        <td><span class="badge-soft">@user.CartItemsCount бр.</span></td>
+                        <td>
+                            <div class="actions-wrap justify-content-end">
+                                <form asp-action="ResetPassword" method="post" class="inline-form">
+                                    @Html.AntiForgeryToken()
+                                    <input type="hidden" name="id" value="@user.Id" />
+                                    <button type="submit" class="btn btn-brand btn-sm">Нулирай парола</button>
+                                </form>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</section>

@@ -1,9 +1,8 @@
-﻿
 using ASPMMA;
 using ASPMMA.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
-
+using Microsoft.EntityFrameworkCore;
 
 namespace ASPMMA.Services
 {
@@ -14,16 +13,17 @@ namespace ASPMMA.Services
             using var scope = app.ApplicationServices.CreateScope();
 
             var services = scope.ServiceProvider;
-
             var loggerFactory = services.GetRequiredService<ILoggerFactory>();
+
             try
             {
-                var context = services.GetRequiredService<ApplicationDbContext>();
+                var dbContext = services.GetRequiredService<ApplicationDbContext>();
                 var userManager = services.GetRequiredService<UserManager<Client>>();
                 var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
-                //Sazdavane na roles
+
+                await dbContext.Database.MigrateAsync();
+                await EnsureOrderStatusColumnAsync(dbContext);
                 await SeedRolesAsync(roleManager);
-                //sazdavane na SUPER ADMIN s vsi4kite mu roli
                 await SeedSuperAdminAsync(userManager);
             }
             catch (Exception ex)
@@ -34,46 +34,54 @@ namespace ASPMMA.Services
 
             return app;
         }
+
         public static async Task SeedRolesAsync(RoleManager<IdentityRole> roleManager)
         {
-            //foreach (var role in Enum.GetValues(Roles))
-            //{
-            //                    var roleExist = await roleManager.RoleExistsAsync(role); 
-            //    if (!roleExist)
-            //    { }
-            //}
-           
-                //Seed Roles
-                await roleManager.CreateAsync(new IdentityRole("Admin"));
-                await roleManager.CreateAsync(new IdentityRole("User"));
-               // await roleManager.CreateAsync(new IdentityRole("Guest"));
-        }
+            var roleNames = new[] { "Admin", "Client", "User" };
 
-            public static async Task SeedSuperAdminAsync(UserManager<Client> userManager)
+            foreach (var roleName in roleNames)
             {
-                //Seed Default User
-                var defaultUser = new Client
+                if (!await roleManager.RoleExistsAsync(roleName))
                 {
-                    UserName = "superadmin",
-                    Email = "superadmin@gmail.com",
-                    FirstName = "ivan",
-                    LastName = "ivanov",
-                    PhoneNumber = "0899999999",
-                    EmailConfirmed = true,
-                    PhoneNumberConfirmed = true
-                };
-
-                var user = await userManager.FindByEmailAsync(defaultUser.Email);
-                if (user == null)
-                {
-                    var result = await userManager.CreateAsync(defaultUser, "123!@#Qwe");
-                    if (result.Succeeded)
-                    {
-                        await userManager.AddToRoleAsync(defaultUser, "Admin");
-                        //await userManager.AddToRoleAsync(defaultUser, Roles.Guest.ToString());
-                        //await userManager.AddToRoleAsync(defaultUser, Roles.User.ToString());                    
-                    }
+                    await roleManager.CreateAsync(new IdentityRole(roleName));
                 }
             }
         }
+
+        public static async Task SeedSuperAdminAsync(UserManager<Client> userManager)
+        {
+            var defaultUser = new Client
+            {
+                UserName = "superadmin",
+                Email = "superadmin@gmail.com",
+                FirstName = "Ivan",
+                LastName = "Ivanov",
+                PhoneNumber = "0899999999",
+                EmailConfirmed = true,
+                PhoneNumberConfirmed = true
+            };
+
+            var user = await userManager.FindByEmailAsync(defaultUser.Email);
+            if (user == null)
+            {
+                var result = await userManager.CreateAsync(defaultUser, "123!@#Qwe");
+                if (result.Succeeded)
+                {
+                    await userManager.AddToRoleAsync(defaultUser, "Admin");
+                }
+            }
+        }
+
+        private static async Task EnsureOrderStatusColumnAsync(ApplicationDbContext dbContext)
+        {
+            const string sql = """
+                IF OBJECT_ID(N'[Orders]', N'U') IS NOT NULL AND COL_LENGTH(N'Orders', N'Status') IS NULL
+                BEGIN
+                    ALTER TABLE [Orders] ADD [Status] int NOT NULL CONSTRAINT [DF_Orders_Status] DEFAULT 0;
+                END
+                """;
+
+            await dbContext.Database.ExecuteSqlRawAsync(sql);
+        }
     }
+}

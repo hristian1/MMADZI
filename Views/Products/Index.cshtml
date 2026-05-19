@@ -1,93 +1,157 @@
-﻿@model IEnumerable<ASPMMA.Data.Product>
+@model IEnumerable<ASPMMA.Data.Product>
+@using ASPMMA.Data
 
 @{
-    ViewData["Title"] = "Products";
-    var products = Model?.ToList() ?? new List<ASPMMA.Data.Product>();
-   
+    var products = Model?.ToList() ?? new List<Product>();
+    var selectedCategoryName = ViewData["SelectedCategoryName"] as string;
+    var selectedCategoryDescription = ViewData["SelectedCategoryDescription"] as string;
+    var hasSelectedCategory = !string.IsNullOrWhiteSpace(selectedCategoryName);
+    ViewData["Title"] = hasSelectedCategory ? selectedCategoryName : "Продукти";
 }
 
-<section class="section-head mb-4">
-    <div>
-        <h1>Products</h1>
-        <p>Manage the MMA gear catalog with a cleaner premium storefront table.</p>
-    </div>
-    <a asp-action="Create" class="btn btn-brand rounded-pill px-4">+ Add product</a>
-</section>
+<div class="products-arena">
+    @await Component.InvokeAsync("CategoryDock")
 
-<section class="metric-grid">
-    <article class="metric-card">
-        <h3>@products.Count</h3>
-        <p>Total listed products</p>
-    </article>
-    <article class="metric-card">
-        <h3>@products.Sum(x => x.StockQuantity)</h3>
-        <p>Total stock units</p>
-    </article>
-    <article class="metric-card">
-        <h3>@products.Count(x => x.StockQuantity > 0)</h3>
-        <p>In-stock items</p>
-    </article>
-    <article class="metric-card">
-        <h3>@(products.Any() ? $"{products.Max(x => x.Price):0.##} €" : "0 €")</h3>
-        <p>Highest listed price</p>
-    </article>
-</section>
+    <section class="products-hero-panel">
+        <div class="section-head products-titlebar">
+            <div>
+                @if (hasSelectedCategory)
+                {
+                    <span class="hero-kicker">Категория</span>
+                }
+                else
+                {
+                    <span class="hero-kicker">MMA Gear</span>
+                }
+                <h1>@(hasSelectedCategory ? selectedCategoryName : "Продукти")</h1>
+                <p>
+                    @(hasSelectedCategory
+                        ? (string.IsNullOrWhiteSpace(selectedCategoryDescription) ? "Артикули от избраната категория." : selectedCategoryDescription)
+                        : "Подбрана бойна екипировка за тренировки, спаринг и fight week.")
+                </p>
+            </div>
+            @if (User.IsInRole("Admin"))
+            {
+                <a asp-action="Create" class="btn btn-brand rounded-pill px-4">Добави продукт</a>
+            }
+        </div>
 
-<section class="content-card">
-    <div class="table-shell">
+        <section class="metric-grid products-metric-grid">
+            <article class="metric-card">
+                <span class="metric-label">Каталог</span>
+                <h3>@products.Count</h3>
+                <p>Намерени продукти</p>
+            </article>
+            <article class="metric-card">
+                <span class="metric-label">Склад</span>
+                <h3>@products.Sum(x => x.StockQuantity)</h3>
+                <p>Обща наличност</p>
+            </article>
+            <article class="metric-card">
+                <span class="metric-label">Ready</span>
+                <h3>@products.Count(x => x.StockQuantity > 0)</h3>
+                <p>Налични артикули</p>
+            </article>
+            <article class="metric-card">
+                <span class="metric-label">Цена</span>
+                <h3>@(products.Any() ? $"{products.Max(x => x.Price):0.##} лв." : "0 лв.")</h3>
+                <p>Най-висока цена</p>
+            </article>
+        </section>
+    </section>
+
+    @if (TempData["CartSuccess"] is string cartSuccess)
+    {
+        <div class="alert alert-success mb-4">@cartSuccess</div>
+    }
+
+    @if (TempData["CartError"] is string cartError)
+    {
+        <div class="alert alert-danger mb-4">@cartError</div>
+    }
+
+    <section class="products-catalog-panel">
+        <div class="products-catalog-head">
+            <div>
+                <span class="hero-kicker">Екипировка</span>
+                <h2>@(hasSelectedCategory ? selectedCategoryName : "Всички артикули")</h2>
+            </div>
+            <span class="catalog-count">@products.Count артикула</span>
+        </div>
+
+        <div class="product-grid">
         @if (products.Any())
         {
-            <table class="table-dark-card">
-                <thead>
-                    <tr>
-                        <th>Product</th>
-                        <th>Price</th>
-                        <th>Stock</th>
-                        <th>Category</th>
-                        <th>Created</th>
-                        <th class="text-end">Actions</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var item in products)
-                    {
-                        var imageUrl = string.IsNullOrWhiteSpace(item.ImageUrl)
-                            ? "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=300&q=80"
-                            : item.ImageUrl;
+            @foreach (var item in products)
+            {
+                var imageUrl = string.IsNullOrWhiteSpace(item.ImageUrl)
+                    ? "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80"
+                    : item.ImageUrl;
 
-                        <tr>
-                            <td>
-                                <div class="product-cell">
-                                    <img src="@imageUrl" alt="@item.Name" class="avatar-square" />
-                                    <div>
-                                        <span class="product-name">@item.Name</span>
-                                        <span class="product-sub">@item.Size · @item.Description</span>
-                                    </div>
-                                </div>
-                            </td>
-                            <td><span class="price-tag">@item.Price.ToString("0.##") €</span></td>
-                            <td><span class="badge-stock">@item.StockQuantity in stock</span></td>
-                            <td><span class="badge-soft">@item.Categorys?.CategoryName</span></td>
-                            <td><span class="badge-date">@item.CreatedAt.ToString("dd MMM yyyy")</span></td>
-                            <td>
-                                <div class="actions-wrap justify-content-end">
-                                    <a asp-action="Edit" asp-route-id="@item.Id" class="action-link">Edit</a>
-                                    <a asp-action="Details" asp-route-id="@item.Id" class="action-link">Details</a>
-                                    <a asp-action="Delete" asp-route-id="@item.Id" class="action-link danger-soft">Delete</a>
-                                </div>
-                            </td>
-                        </tr>
-                    }
-                </tbody>
-            </table>
+                <article class="shop-card">
+                    <div class="shop-card-media">
+                        <img src="@imageUrl" alt="@item.Name" class="shop-card-image" />
+                    </div>
+                    <div class="shop-card-body">
+                        <div class="shop-card-topline">
+                            <span class="badge-soft">@item.CatalogNumber</span>
+                            <span class="price-tag">@item.Price.ToString("0.##") лв.</span>
+                        </div>
+                        <h3>@item.Name</h3>
+                        <p class="product-sub">@item.Description</p>
+
+                        <div class="shop-meta">
+                            <span class="badge-date">@item.Categorys?.CategoryName</span>
+                            <span class="badge-stock">@item.StockQuantity бр.</span>
+                        </div>
+
+                        <div class="shop-meta">
+                            @if (!string.IsNullOrWhiteSpace(item.Size))
+                            {
+                                <span class="badge-soft">Размер: @item.Size</span>
+                            }
+                        </div>
+
+                        <div class="actions-wrap mt-3">
+                            <a asp-action="Details" asp-route-id="@item.Id" class="action-link">Детайли</a>
+                            @if (User.Identity?.IsAuthenticated == true)
+                            {
+                                <form asp-controller="Carts" asp-action="AddToCart" method="post" class="inline-form">
+                                    @Html.AntiForgeryToken()
+                                    <input type="hidden" name="productId" value="@item.Id" />
+                                    <input type="hidden" name="quantity" value="1" />
+                                    <input type="hidden" name="returnUrl" value="@Context.Request.Path@Context.Request.QueryString" />
+                                    <button type="submit" class="btn btn-brand btn-sm">Добави в количка</button>
+                                </form>
+                            }
+                            else
+                            {
+                                <a asp-area="Identity" asp-page="/Account/Login" asp-route-returnUrl="@Url.Action("Index", "Products")" class="action-link">Вход за поръчка</a>
+                            }
+                        </div>
+
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <div class="actions-wrap mt-2">
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="action-link">Редакция</a>
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="action-link danger-soft">Изтрий</a>
+                            </div>
+                        }
+                    </div>
+                </article>
+            }
         }
         else
         {
             <div class="empty-state">
-                <h3 class="mb-2 text-white">No products yet</h3>
-                <p class="mb-3">Start building the catalog with your first MMA product.</p>
-                <a asp-action="Create" class="btn btn-brand rounded-pill px-4">Create product</a>
+                <h3 class="mb-2 text-white">@(hasSelectedCategory ? "Няма продукти в тази категория" : "Няма продукти")</h3>
+                <p class="mb-0">
+                    @(hasSelectedCategory
+                        ? "Избери друга категория от лявото меню или добави нов продукт от администраторския панел."
+                        : "Все още няма добавени артикули в каталога.")
+                </p>
             </div>
         }
-    </div>
-</section>
+        </div>
+    </section>
+</div>

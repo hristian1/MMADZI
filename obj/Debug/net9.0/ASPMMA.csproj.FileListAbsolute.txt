@@ -2969,3 +2969,1189 @@ C:\Users\1212-11\Desktop\3ж\ASPMMA2.0\ASPMMA2.0\obj\Debug\net9.0\ASPMMA.genrunt
 C:\Users\1212-11\Desktop\3ж\ASPMMA2.0\ASPMMA2.0\obj\Debug\net9.0\ref\ASPMMA.dll
 C:\Users\1212-11\Desktop\3ж\ASPMMA2.0\ASPMMA2.0\obj\Debug\net9.0\compressed\8zoxwxnceg-5ipweew5fc.gz
 C:\Users\1212-11\Desktop\3ж\ASPMMA2.0\ASPMMA2.0\obj\Debug\net9.0\compressed\l1od4glm30-davggvx9ru.gz
+D:\Zaimov\MMADZI\bin\Debug\net9.0\appsettings.Development.json
+D:\Zaimov\MMADZI\bin\Debug\net9.0\appsettings.json
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ASPMMA.staticwebassets.runtime.json
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ASPMMA.staticwebassets.endpoints.json
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ASPMMA.exe
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ASPMMA.deps.json
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ASPMMA.runtimeconfig.json
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ASPMMA.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ASPMMA.pdb
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Azure.Core.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Azure.Identity.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Humanizer.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.Build.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.Build.Framework.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.Build.Tasks.Core.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.Build.Utilities.Core.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.CodeAnalysis.Features.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.Data.Sqlite.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.DiaSymReader.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.NET.StringTools.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.VisualStudio.Setup.Configuration.Interop.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\dotnet-aspnet-codegenerator-design.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Mono.TextTemplating.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\Newtonsoft.Json.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\NuGet.Common.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\NuGet.Configuration.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\NuGet.DependencyResolver.Core.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\NuGet.Frameworks.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\NuGet.LibraryModel.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\NuGet.Packaging.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\NuGet.ProjectModel.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\NuGet.Protocol.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\NuGet.Versioning.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\SQLitePCLRaw.batteries_v2.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\SQLitePCLRaw.core.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\System.ClientModel.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\System.CodeDom.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\System.Composition.Convention.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\System.Composition.Hosting.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\System.Composition.Runtime.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\System.Composition.TypedParts.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\System.Memory.Data.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\System.Reflection.MetadataLoadContext.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\System.Resources.Extensions.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\System.Runtime.Caching.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\System.Security.Permissions.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\System.Windows.Extensions.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\af\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ar\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\az\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\bg\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\bn-BD\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\cs\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\da\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\de\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\el\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\es\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\fa\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\fi-FI\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\fr\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\fr-BE\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\he\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\hr\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\hu\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\hy\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\id\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\is\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\it\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ja\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ko-KR\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ku\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\lv\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ms-MY\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\mt\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\nb\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\nb-NO\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\nl\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\pl\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\pt\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ro\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ru\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\sk\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\sl\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\sr\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\sr-Latn\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\sv\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\th-TH\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\tr\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\uk\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\vi\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\zh-CN\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\zh-Hans\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\zh-Hant\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
+D:\Zaimov\MMADZI\bin\Debug\net9.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\Zaimov\MMADZI\bin\Debug\net9.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\Zaimov\MMADZI\bin\Debug\net9.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\Zaimov\MMADZI\bin\Debug\net9.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\Zaimov\MMADZI\bin\Debug\net9.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\Zaimov\MMADZI\bin\Debug\net9.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\Zaimov\MMADZI\bin\Debug\net9.0\runtimes\linux-musl-s390x\native\libe_sqlite3.so
+D:\Zaimov\MMADZI\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\Zaimov\MMADZI\bin\Debug\net9.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+D:\Zaimov\MMADZI\bin\Debug\net9.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\Zaimov\MMADZI\bin\Debug\net9.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\Zaimov\MMADZI\bin\Debug\net9.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\Zaimov\MMADZI\bin\Debug\net9.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\Zaimov\MMADZI\bin\Debug\net9.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\Zaimov\MMADZI\bin\Debug\net9.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\Zaimov\MMADZI\bin\Debug\net9.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\Zaimov\MMADZI\bin\Debug\net9.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Zaimov\MMADZI\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+D:\Zaimov\MMADZI\obj\Debug\net9.0\ASPMMA.csproj.AssemblyReference.cache
+D:\Zaimov\MMADZI\obj\Debug\net9.0\rpswa.dswa.cache.json
+D:\Zaimov\MMADZI\obj\Debug\net9.0\ASPMMA.GeneratedMSBuildEditorConfig.editorconfig
+D:\Zaimov\MMADZI\obj\Debug\net9.0\ASPMMA.AssemblyInfoInputs.cache
+D:\Zaimov\MMADZI\obj\Debug\net9.0\ASPMMA.AssemblyInfo.cs
+D:\Zaimov\MMADZI\obj\Debug\net9.0\ASPMMA.csproj.CoreCompileInputs.cache
+D:\Zaimov\MMADZI\obj\Debug\net9.0\ASPMMA.MvcApplicationPartsAssemblyInfo.cs
+D:\Zaimov\MMADZI\obj\Debug\net9.0\ASPMMA.MvcApplicationPartsAssemblyInfo.cache
+D:\Zaimov\MMADZI\obj\Debug\net9.0\ASPMMA.RazorAssemblyInfo.cache
+D:\Zaimov\MMADZI\obj\Debug\net9.0\ASPMMA.RazorAssemblyInfo.cs
+D:\Zaimov\MMADZI\obj\Debug\net9.0\ASPMMA.sourcelink.json
+D:\Zaimov\MMADZI\obj\Debug\net9.0\rjimswa.dswa.cache.json
+D:\Zaimov\MMADZI\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+D:\Zaimov\MMADZI\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+D:\Zaimov\MMADZI\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Zaimov\MMADZI\obj\Debug\net9.0\scopedcss\bundle\ASPMMA.styles.css
+D:\Zaimov\MMADZI\obj\Debug\net9.0\scopedcss\projectbundle\ASPMMA.bundle.scp.css
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\ofa40bqe71-b9sayid5wm.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\j9swiz3yzq-90yqlj465b.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\vltxs1u3vm-xtxxf3hu2r.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\14ipv7q33s-bqjiyaj88i.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\rh65p086id-c2jlpeoesf.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\eb27mqwgz2-erw9l3u2r3.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\9glsckmvxo-aexeepp0ev.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\hh8ihyobdx-d7shbmvgxk.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\bww8ud00yd-ausgxo2sd3.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\edcrak57d7-k8d9w2qqmf.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\sf8kf2lula-cosvhxvwiu.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\3tzsqhslk9-ub07r2b239.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\oxk5o6czdw-fvhpjtyr6v.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\k8b25g0zwc-b7pk76d08c.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\8axix7wldr-fsbi9cje9m.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\d5z9sfpxbi-rzd6atqjts.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\u8428c4e9i-ee0r1s7dh0.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\tg53r17ghy-dxx9fxp4il.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\nlrl0f3xs3-jd9uben2k1.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\1fc4q00scq-khv3u5hwcm.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\8xykfy6qmd-r4e9w2rdcm.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\vsrbd71spn-lcd1t2u6c8.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\cynp17w084-c2oey78nd0.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\7o8oyvng68-tdbxkamptv.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\h9vwtoirpy-j5mq2jizvt.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\o5k23vqhrk-06098lyss8.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\iznc766avz-nvvlpmu67g.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\ns4583i71s-s35ty4nyc5.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\47012z8l2l-pj5nd1wqec.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\4vzefxwp2m-46ein0sx1k.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\bh4v3mdph9-v0zj4ognzu.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\l186vlgaag-37tfw0ft22.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\rsc7qacj1u-hrwsygsryq.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\z408qb6q7a-pk9g2wxc8p.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\qfr28sqcy1-ft3s53vfgj.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\0k1i85ntyh-6cfz1n2cew.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\xa379ftczi-6pdc2jztkx.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\lr5hmrr0j7-493y06b0oq.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\ivy2s9gwh5-iovd86k7lj.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\higufxz8op-vr1egmr9el.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\s3tglgz8hr-kbrnm935zg.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\vw9sls9bhj-jj8uyg4cgr.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\ym8tkpcl2i-y7v9cxd14o.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\zzna4nrm5w-notf2xhcfb.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\igscs4x0yk-h1s4sie4z3.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\zap00c0tb5-63fj8s7r0e.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\pogzkicjpz-0j3bgjxly4.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\j3hwsq15kh-47otxtyo56.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\q3naettu8c-4v8eqarkd7.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\ldxy2n3w6q-356vix0kms.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\ypthv7q62w-83jwlth58m.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\t6e3b82hrf-mrlpezrjn3.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\uocis9wxbx-lzl9nlhx6b.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\2tikzqlmtu-ag7o75518u.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\9muusbdg0a-x0q3zqp4vz.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\tpsq5dibur-0i3buxo5is.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\t0qo7o574p-o1o13a6vjx.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\b9lhb08218-ttgo8qnofa.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\a3ygkwa5zy-2z0ns9nrw6.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\8zoxwxnceg-5ipweew5fc.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\ed9xyupyfy-61n19gt1b8.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\oextbddsn7-t1cqhe9u97.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\jp52s9nyhs-c2jlpeoesf.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\7jzm73llda-sejl45xvog.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\19wzajmtep-aexeepp0ev.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\nzaycti5li-xvp3kq03qx.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\xgrulpqxet-ausgxo2sd3.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\z6mo8jq3nk-22vffe00uq.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\ax4td8hvz4-cosvhxvwiu.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\8yg5uu2x4t-qesaa3a1fm.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\ybt0a9vgwj-fvhpjtyr6v.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\oqfehs3q4l-tmc1g35s3z.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\iooanhzcjc-fsbi9cje9m.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\c7ffgu7mxm-rxsg74s51o.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\03osmvzylt-ee0r1s7dh0.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\6y81q2at8r-q9ht133ko3.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\1o4dl4eeun-jd9uben2k1.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\49v2wlqcst-gye83jo8yx.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\j3vu3sgekg-r4e9w2rdcm.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\hu8rjrje68-wl58j5mj3v.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\kx07a314c5-c2oey78nd0.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\0m0nl6gn5b-d4r6k3f320.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\1kj1xp5eox-j5mq2jizvt.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\izi3qxzhbq-keugtjm085.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\dx6frp0lr4-nvvlpmu67g.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\vjmxneczwi-zub09dkrxp.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\sxgqu04e6x-pj5nd1wqec.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\8lylrye81y-43atpzeawx.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\irfd375o7h-v0zj4ognzu.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\jdgpwd391l-ynyaa8k90p.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\e3ga1zabzc-hrwsygsryq.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\l6z5v9nn8t-c63t5i9ira.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\bslm93vpna-ft3s53vfgj.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\ycuo8uluyr-4094rpi4f9.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\5pf2lb5yax-6pdc2jztkx.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\5pzpdb6yg9-hd3gran6i8.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\iy7s4ro3uo-iovd86k7lj.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\htzaa6p9wj-ltid2c489k.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\14awzasft1-kbrnm935zg.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\0jb7ep4fjd-8vyfqsqgz1.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\yy05dgqtq5-y7v9cxd14o.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\l3veub06kg-u9q1upor1n.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\apzn38hxy6-h1s4sie4z3.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\1jjutcow8y-4d85u1mtcx.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\xk6cfiis71-0j3bgjxly4.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\p8m7w3reh6-03hjc8e09r.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\70z1rp6uto-48y08845bh.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\8ugz6uk7t0-356vix0kms.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\6aiwlo8b4s-83jwlth58m.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\0mqdepvnlw-mrlpezrjn3.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\rosrf63jlv-worgj0nhwm.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\vn6lw8bl0a-gk0pw8i4co.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\ajba4ynw7o-x0q3zqp4vz.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\zdvgbgkoqr-d6nrnj6jjx.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\8l55r6muex-m9qm4tazc0.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\ne0thnwkvy-ttgo8qnofa.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\kdcrbqbezi-jjsuc0puko.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\ccraj5bxup-9vr69e8ynj.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\m1liae172q-87fc7y1x7t.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\obe0u5315o-mlv21k5csn.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\staticwebassets.build.json
+D:\Zaimov\MMADZI\obj\Debug\net9.0\staticwebassets.build.json.cache
+D:\Zaimov\MMADZI\obj\Debug\net9.0\staticwebassets.development.json
+D:\Zaimov\MMADZI\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\Zaimov\MMADZI\obj\Debug\net9.0\ASPMMA.csproj.Up2Date
+D:\Zaimov\MMADZI\obj\Debug\net9.0\ASPMMA.dll
+D:\Zaimov\MMADZI\obj\Debug\net9.0\refint\ASPMMA.dll
+D:\Zaimov\MMADZI\obj\Debug\net9.0\ASPMMA.pdb
+D:\Zaimov\MMADZI\obj\Debug\net9.0\ASPMMA.genruntimeconfig.cache
+D:\Zaimov\MMADZI\obj\Debug\net9.0\ref\ASPMMA.dll
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\ckuwfpxzqr-lpm11om0tu.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\r0v6u0k5fy-lpm11om0tu.gz
+C:\Users\Admin\AppData\Local\Temp\mmadzi-build-verify\out\appsettings.Development.json
+C:\Users\Admin\AppData\Local\Temp\mmadzi-build-verify\out\appsettings.json
+C:\Users\Admin\AppData\Local\Temp\mmadzi-build-verify\out\ASPMMA.staticwebassets.runtime.json
+C:\Users\Admin\AppData\Local\Temp\mmadzi-build-verify\out\ASPMMA.staticwebassets.endpoints.json
+C:\Users\Admin\AppData\Local\Temp\mmadzi-build-verify\out\ASPMMA.exe
+C:\Users\Admin\AppData\Local\Temp\mmadzi-build-verify\out\ASPMMA.deps.json
+C:\Users\Admin\AppData\Local\Temp\mmadzi-build-verify\out\ASPMMA.runtimeconfig.json
+C:\Users\Admin\AppData\Local\Temp\mmadzi-build-verify\out\ASPMMA.dll
+C:\Users\Admin\AppData\Local\Temp\mmadzi-build-verify\out\ASPMMA.pdb
+D:\Zaimov\MMADZI\bin\verify\appsettings.Development.json
+D:\Zaimov\MMADZI\bin\verify\appsettings.json
+D:\Zaimov\MMADZI\bin\verify\ASPMMA.staticwebassets.runtime.json
+D:\Zaimov\MMADZI\bin\verify\ASPMMA.staticwebassets.endpoints.json
+D:\Zaimov\MMADZI\bin\verify\ASPMMA.exe
+D:\Zaimov\MMADZI\bin\verify\ASPMMA.deps.json
+D:\Zaimov\MMADZI\bin\verify\ASPMMA.runtimeconfig.json
+D:\Zaimov\MMADZI\bin\verify\ASPMMA.dll
+D:\Zaimov\MMADZI\bin\verify\ASPMMA.pdb
+D:\Zaimov\MMADZI\bin\verify\Azure.Core.dll
+D:\Zaimov\MMADZI\bin\verify\Azure.Identity.dll
+D:\Zaimov\MMADZI\bin\verify\Humanizer.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.AspNetCore.Identity.UI.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.AspNetCore.Razor.Language.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.Build.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.Build.Framework.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.Build.Locator.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.Build.Tasks.Core.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.Build.Utilities.Core.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.CodeAnalysis.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.CodeAnalysis.CSharp.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.CodeAnalysis.Elfie.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.CodeAnalysis.Features.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.CodeAnalysis.Razor.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.CodeAnalysis.Scripting.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.Data.SqlClient.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.Data.Sqlite.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.DiaSymReader.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.EntityFrameworkCore.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.EntityFrameworkCore.Design.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.Extensions.Caching.Memory.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.Extensions.DependencyInjection.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.Extensions.DependencyModel.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.Extensions.Identity.Core.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.Extensions.Identity.Stores.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.Extensions.Logging.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.Extensions.Options.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.Extensions.Primitives.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.Identity.Client.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.IdentityModel.Abstractions.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.IdentityModel.Logging.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.IdentityModel.Protocols.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.IdentityModel.Tokens.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.NET.StringTools.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.SqlServer.Server.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.VisualStudio.Setup.Configuration.Interop.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Zaimov\MMADZI\bin\verify\dotnet-aspnet-codegenerator-design.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Zaimov\MMADZI\bin\verify\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Zaimov\MMADZI\bin\verify\Mono.TextTemplating.dll
+D:\Zaimov\MMADZI\bin\verify\Newtonsoft.Json.dll
+D:\Zaimov\MMADZI\bin\verify\NuGet.Common.dll
+D:\Zaimov\MMADZI\bin\verify\NuGet.Configuration.dll
+D:\Zaimov\MMADZI\bin\verify\NuGet.DependencyResolver.Core.dll
+D:\Zaimov\MMADZI\bin\verify\NuGet.Frameworks.dll
+D:\Zaimov\MMADZI\bin\verify\NuGet.LibraryModel.dll
+D:\Zaimov\MMADZI\bin\verify\NuGet.Packaging.dll
+D:\Zaimov\MMADZI\bin\verify\NuGet.ProjectModel.dll
+D:\Zaimov\MMADZI\bin\verify\NuGet.Protocol.dll
+D:\Zaimov\MMADZI\bin\verify\NuGet.Versioning.dll
+D:\Zaimov\MMADZI\bin\verify\SQLitePCLRaw.batteries_v2.dll
+D:\Zaimov\MMADZI\bin\verify\SQLitePCLRaw.core.dll
+D:\Zaimov\MMADZI\bin\verify\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\Zaimov\MMADZI\bin\verify\System.ClientModel.dll
+D:\Zaimov\MMADZI\bin\verify\System.CodeDom.dll
+D:\Zaimov\MMADZI\bin\verify\System.Composition.AttributedModel.dll
+D:\Zaimov\MMADZI\bin\verify\System.Composition.Convention.dll
+D:\Zaimov\MMADZI\bin\verify\System.Composition.Hosting.dll
+D:\Zaimov\MMADZI\bin\verify\System.Composition.Runtime.dll
+D:\Zaimov\MMADZI\bin\verify\System.Composition.TypedParts.dll
+D:\Zaimov\MMADZI\bin\verify\System.Configuration.ConfigurationManager.dll
+D:\Zaimov\MMADZI\bin\verify\System.IdentityModel.Tokens.Jwt.dll
+D:\Zaimov\MMADZI\bin\verify\System.Memory.Data.dll
+D:\Zaimov\MMADZI\bin\verify\System.Reflection.MetadataLoadContext.dll
+D:\Zaimov\MMADZI\bin\verify\System.Resources.Extensions.dll
+D:\Zaimov\MMADZI\bin\verify\System.Runtime.Caching.dll
+D:\Zaimov\MMADZI\bin\verify\System.Security.Cryptography.ProtectedData.dll
+D:\Zaimov\MMADZI\bin\verify\System.Security.Permissions.dll
+D:\Zaimov\MMADZI\bin\verify\System.Windows.Extensions.dll
+D:\Zaimov\MMADZI\bin\verify\af\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\ar\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\az\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\bg\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\bn-BD\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\cs\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\da\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\de\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\el\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\es\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\fa\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\fi-FI\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\fr\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\fr-BE\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\he\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\hr\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\hu\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\hy\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\id\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\is\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\it\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\ja\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\ko-KR\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\ku\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\lv\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\ms-MY\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\mt\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\nb\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\nb-NO\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\nl\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\pl\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\pt\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\ro\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\ru\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\sk\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\sl\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\sr\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\sr-Latn\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\sv\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\th-TH\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\tr\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\uk\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\uz-Latn-UZ\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\vi\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\zh-CN\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\zh-Hans\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\zh-Hant\Humanizer.resources.dll
+D:\Zaimov\MMADZI\bin\verify\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Zaimov\MMADZI\bin\verify\de\Microsoft.CodeAnalysis.resources.dll
+D:\Zaimov\MMADZI\bin\verify\es\Microsoft.CodeAnalysis.resources.dll
+D:\Zaimov\MMADZI\bin\verify\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Zaimov\MMADZI\bin\verify\it\Microsoft.CodeAnalysis.resources.dll
+D:\Zaimov\MMADZI\bin\verify\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Zaimov\MMADZI\bin\verify\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Zaimov\MMADZI\bin\verify\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Zaimov\MMADZI\bin\verify\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Zaimov\MMADZI\bin\verify\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Zaimov\MMADZI\bin\verify\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Zaimov\MMADZI\bin\verify\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Zaimov\MMADZI\bin\verify\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Zaimov\MMADZI\bin\verify\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Zaimov\MMADZI\bin\verify\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Zaimov\MMADZI\bin\verify\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Zaimov\MMADZI\bin\verify\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Zaimov\MMADZI\bin\verify\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Zaimov\MMADZI\bin\verify\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Zaimov\MMADZI\bin\verify\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Zaimov\MMADZI\bin\verify\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Zaimov\MMADZI\bin\verify\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Zaimov\MMADZI\bin\verify\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Zaimov\MMADZI\bin\verify\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Zaimov\MMADZI\bin\verify\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Zaimov\MMADZI\bin\verify\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Zaimov\MMADZI\bin\verify\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Zaimov\MMADZI\bin\verify\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Zaimov\MMADZI\bin\verify\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Zaimov\MMADZI\bin\verify\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Zaimov\MMADZI\bin\verify\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Zaimov\MMADZI\bin\verify\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Zaimov\MMADZI\bin\verify\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Zaimov\MMADZI\bin\verify\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Zaimov\MMADZI\bin\verify\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Zaimov\MMADZI\bin\verify\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Zaimov\MMADZI\bin\verify\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Zaimov\MMADZI\bin\verify\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Zaimov\MMADZI\bin\verify\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Zaimov\MMADZI\bin\verify\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\verify\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\verify\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\verify\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\verify\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\verify\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\verify\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\verify\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\verify\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\verify\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\verify\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\verify\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\verify\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\verify\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Zaimov\MMADZI\bin\verify\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Zaimov\MMADZI\bin\verify\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Zaimov\MMADZI\bin\verify\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Zaimov\MMADZI\bin\verify\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Zaimov\MMADZI\bin\verify\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Zaimov\MMADZI\bin\verify\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Zaimov\MMADZI\bin\verify\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Zaimov\MMADZI\bin\verify\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Zaimov\MMADZI\bin\verify\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Zaimov\MMADZI\bin\verify\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Zaimov\MMADZI\bin\verify\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Zaimov\MMADZI\bin\verify\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Zaimov\MMADZI\bin\verify\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Zaimov\MMADZI\bin\verify\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Zaimov\MMADZI\bin\verify\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Zaimov\MMADZI\bin\verify\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Zaimov\MMADZI\bin\verify\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Zaimov\MMADZI\bin\verify\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Zaimov\MMADZI\bin\verify\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Zaimov\MMADZI\bin\verify\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Zaimov\MMADZI\bin\verify\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Zaimov\MMADZI\bin\verify\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Zaimov\MMADZI\bin\verify\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Zaimov\MMADZI\bin\verify\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Zaimov\MMADZI\bin\verify\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Zaimov\MMADZI\bin\verify\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\verify\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\verify\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\verify\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\verify\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\verify\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\verify\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\verify\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\verify\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\verify\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\verify\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\verify\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\verify\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Zaimov\MMADZI\bin\verify\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Zaimov\MMADZI\bin\verify\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Zaimov\MMADZI\bin\verify\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Zaimov\MMADZI\bin\verify\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Zaimov\MMADZI\bin\verify\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Zaimov\MMADZI\bin\verify\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Zaimov\MMADZI\bin\verify\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Zaimov\MMADZI\bin\verify\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Zaimov\MMADZI\bin\verify\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Zaimov\MMADZI\bin\verify\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Zaimov\MMADZI\bin\verify\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Zaimov\MMADZI\bin\verify\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Zaimov\MMADZI\bin\verify\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Zaimov\MMADZI\bin\verify\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Zaimov\MMADZI\bin\verify\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Zaimov\MMADZI\bin\verify\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Zaimov\MMADZI\bin\verify\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Zaimov\MMADZI\bin\verify\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Zaimov\MMADZI\bin\verify\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Zaimov\MMADZI\bin\verify\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
+D:\Zaimov\MMADZI\bin\verify\runtimes\linux-arm\native\libe_sqlite3.so
+D:\Zaimov\MMADZI\bin\verify\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\Zaimov\MMADZI\bin\verify\runtimes\linux-armel\native\libe_sqlite3.so
+D:\Zaimov\MMADZI\bin\verify\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\Zaimov\MMADZI\bin\verify\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\Zaimov\MMADZI\bin\verify\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\Zaimov\MMADZI\bin\verify\runtimes\linux-musl-s390x\native\libe_sqlite3.so
+D:\Zaimov\MMADZI\bin\verify\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\Zaimov\MMADZI\bin\verify\runtimes\linux-ppc64le\native\libe_sqlite3.so
+D:\Zaimov\MMADZI\bin\verify\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\Zaimov\MMADZI\bin\verify\runtimes\linux-x64\native\libe_sqlite3.so
+D:\Zaimov\MMADZI\bin\verify\runtimes\linux-x86\native\libe_sqlite3.so
+D:\Zaimov\MMADZI\bin\verify\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\Zaimov\MMADZI\bin\verify\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\Zaimov\MMADZI\bin\verify\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\Zaimov\MMADZI\bin\verify\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\Zaimov\MMADZI\bin\verify\runtimes\win-arm\native\e_sqlite3.dll
+D:\Zaimov\MMADZI\bin\verify\runtimes\win-arm64\native\e_sqlite3.dll
+D:\Zaimov\MMADZI\bin\verify\runtimes\win-x64\native\e_sqlite3.dll
+D:\Zaimov\MMADZI\bin\verify\runtimes\win-x86\native\e_sqlite3.dll
+D:\Zaimov\MMADZI\bin\verify\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Zaimov\MMADZI\bin\verify\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\36433bqvus-3foo7cba8e.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\compressed\l1od4glm30-7b19spjp2g.gz
+D:\Zaimov\MMADZI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\appsettings.json
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ASPMMA.staticwebassets.runtime.json
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ASPMMA.staticwebassets.endpoints.json
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ASPMMA.exe
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ASPMMA.deps.json
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ASPMMA.runtimeconfig.json
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ASPMMA.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ASPMMA.pdb
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Humanizer.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.Build.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.Build.Framework.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.Build.Tasks.Core.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.Build.Utilities.Core.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.CodeAnalysis.Elfie.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.CodeAnalysis.Features.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.Data.Sqlite.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.DiaSymReader.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.NET.StringTools.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.VisualStudio.Setup.Configuration.Interop.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\NuGet.Common.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\NuGet.Configuration.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\NuGet.DependencyResolver.Core.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\NuGet.Frameworks.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\NuGet.LibraryModel.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\NuGet.Packaging.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\NuGet.ProjectModel.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\NuGet.Protocol.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\NuGet.Versioning.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\SQLitePCLRaw.core.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\System.Reflection.MetadataLoadContext.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\System.Resources.Extensions.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\af\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ar\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\az\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\bg\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\bn-BD\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\cs\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\da\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\de\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\el\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\es\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\fa\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\fi-FI\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\fr\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\fr-BE\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\he\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\hr\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\hu\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\hy\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\id\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\is\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\it\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ja\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ko-KR\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ku\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\lv\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ms-MY\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\mt\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\nb\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\nb-NO\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\nl\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\pl\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\pt\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ro\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ru\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\sk\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\sl\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\sr\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\sr-Latn\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\sv\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\th-TH\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\tr\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\uk\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\uz-Cyrl-UZ\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\uz-Latn-UZ\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\vi\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\zh-CN\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\zh-Hans\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\zh-Hant\Humanizer.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\runtimes\linux-musl-s390x\native\libe_sqlite3.so
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\ASPMMA.csproj.AssemblyReference.cache
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\ASPMMA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\ASPMMA.AssemblyInfoInputs.cache
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\ASPMMA.AssemblyInfo.cs
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\ASPMMA.csproj.CoreCompileInputs.cache
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\ASPMMA.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\ASPMMA.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\ASPMMA.RazorAssemblyInfo.cache
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\ASPMMA.RazorAssemblyInfo.cs
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\ASPMMA.sourcelink.json
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\scopedcss\bundle\ASPMMA.styles.css
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\scopedcss\projectbundle\ASPMMA.bundle.scp.css
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\ofa40bqe71-b9sayid5wm.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\j9swiz3yzq-90yqlj465b.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\vltxs1u3vm-xtxxf3hu2r.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\14ipv7q33s-bqjiyaj88i.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\rh65p086id-c2jlpeoesf.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\eb27mqwgz2-erw9l3u2r3.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\9glsckmvxo-aexeepp0ev.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\hh8ihyobdx-d7shbmvgxk.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\bww8ud00yd-ausgxo2sd3.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\edcrak57d7-k8d9w2qqmf.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\sf8kf2lula-cosvhxvwiu.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\3tzsqhslk9-ub07r2b239.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\oxk5o6czdw-fvhpjtyr6v.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\k8b25g0zwc-b7pk76d08c.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\8axix7wldr-fsbi9cje9m.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\d5z9sfpxbi-rzd6atqjts.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\u8428c4e9i-ee0r1s7dh0.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\tg53r17ghy-dxx9fxp4il.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\nlrl0f3xs3-jd9uben2k1.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\1fc4q00scq-khv3u5hwcm.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\8xykfy6qmd-r4e9w2rdcm.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\vsrbd71spn-lcd1t2u6c8.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\cynp17w084-c2oey78nd0.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\7o8oyvng68-tdbxkamptv.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\h9vwtoirpy-j5mq2jizvt.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\o5k23vqhrk-06098lyss8.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\iznc766avz-nvvlpmu67g.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\ns4583i71s-s35ty4nyc5.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\47012z8l2l-pj5nd1wqec.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\4vzefxwp2m-46ein0sx1k.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\bh4v3mdph9-v0zj4ognzu.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\l186vlgaag-37tfw0ft22.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\rsc7qacj1u-hrwsygsryq.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\z408qb6q7a-pk9g2wxc8p.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\qfr28sqcy1-ft3s53vfgj.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\0k1i85ntyh-6cfz1n2cew.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\xa379ftczi-6pdc2jztkx.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\lr5hmrr0j7-493y06b0oq.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\ivy2s9gwh5-iovd86k7lj.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\higufxz8op-vr1egmr9el.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\s3tglgz8hr-kbrnm935zg.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\vw9sls9bhj-jj8uyg4cgr.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\ym8tkpcl2i-y7v9cxd14o.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\zzna4nrm5w-notf2xhcfb.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\igscs4x0yk-h1s4sie4z3.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\zap00c0tb5-63fj8s7r0e.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\pogzkicjpz-0j3bgjxly4.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\j3hwsq15kh-47otxtyo56.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\q3naettu8c-4v8eqarkd7.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\ldxy2n3w6q-356vix0kms.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\ypthv7q62w-83jwlth58m.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\t6e3b82hrf-mrlpezrjn3.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\uocis9wxbx-lzl9nlhx6b.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\2tikzqlmtu-ag7o75518u.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\9muusbdg0a-x0q3zqp4vz.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\tpsq5dibur-0i3buxo5is.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\t0qo7o574p-o1o13a6vjx.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\b9lhb08218-ttgo8qnofa.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\a3ygkwa5zy-2z0ns9nrw6.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\8zoxwxnceg-5ipweew5fc.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\l1od4glm30-g9oau4krqi.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\ed9xyupyfy-61n19gt1b8.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\36433bqvus-3foo7cba8e.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\oextbddsn7-bqjiyaj88i.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\jp52s9nyhs-c2jlpeoesf.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\7jzm73llda-erw9l3u2r3.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\19wzajmtep-aexeepp0ev.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\nzaycti5li-d7shbmvgxk.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\xgrulpqxet-ausgxo2sd3.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\z6mo8jq3nk-k8d9w2qqmf.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\ax4td8hvz4-cosvhxvwiu.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\8yg5uu2x4t-ub07r2b239.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\ybt0a9vgwj-fvhpjtyr6v.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\oqfehs3q4l-b7pk76d08c.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\iooanhzcjc-fsbi9cje9m.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\c7ffgu7mxm-rzd6atqjts.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\03osmvzylt-ee0r1s7dh0.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\6y81q2at8r-dxx9fxp4il.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\1o4dl4eeun-jd9uben2k1.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\49v2wlqcst-khv3u5hwcm.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\j3vu3sgekg-r4e9w2rdcm.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\hu8rjrje68-lcd1t2u6c8.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\kx07a314c5-c2oey78nd0.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\0m0nl6gn5b-tdbxkamptv.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\1kj1xp5eox-j5mq2jizvt.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\izi3qxzhbq-06098lyss8.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\dx6frp0lr4-nvvlpmu67g.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\vjmxneczwi-s35ty4nyc5.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\sxgqu04e6x-pj5nd1wqec.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\8lylrye81y-46ein0sx1k.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\irfd375o7h-v0zj4ognzu.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\jdgpwd391l-37tfw0ft22.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\e3ga1zabzc-hrwsygsryq.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\l6z5v9nn8t-pk9g2wxc8p.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\bslm93vpna-ft3s53vfgj.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\ycuo8uluyr-6cfz1n2cew.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\5pf2lb5yax-6pdc2jztkx.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\5pzpdb6yg9-493y06b0oq.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\iy7s4ro3uo-iovd86k7lj.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\htzaa6p9wj-vr1egmr9el.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\14awzasft1-kbrnm935zg.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\0jb7ep4fjd-jj8uyg4cgr.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\yy05dgqtq5-y7v9cxd14o.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\l3veub06kg-notf2xhcfb.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\apzn38hxy6-h1s4sie4z3.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\1jjutcow8y-63fj8s7r0e.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\xk6cfiis71-0j3bgjxly4.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\p8m7w3reh6-47otxtyo56.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\70z1rp6uto-4v8eqarkd7.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\8ugz6uk7t0-l3n5xuwxn8.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\6aiwlo8b4s-ilo7uva0vt.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\0mqdepvnlw-qlccset4i1.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\rosrf63jlv-lzl9nlhx6b.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\vn6lw8bl0a-ag7o75518u.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\ajba4ynw7o-xzw0cte36n.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\zdvgbgkoqr-0i3buxo5is.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\8l55r6muex-o1o13a6vjx.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\ne0thnwkvy-ttgo8qnofa.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\kdcrbqbezi-2z0ns9nrw6.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\ccraj5bxup-muycvpuwrr.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\m1liae172q-87fc7y1x7t.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\obe0u5315o-jfsiqqwiad.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\ckuwfpxzqr-lpm11om0tu.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\compressed\r0v6u0k5fy-lpm11om0tu.gz
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\ASPMMA.csproj.Up2Date
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\ASPMMA.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\refint\ASPMMA.dll
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\ASPMMA.pdb
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\ASPMMA.genruntimeconfig.cache
+C:\Users\1212-11\Desktop\Нова папка\MMADZI\obj\Debug\net9.0\ref\ASPMMA.dll

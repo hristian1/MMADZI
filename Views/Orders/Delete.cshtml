@@ -1,45 +1,27 @@
-﻿@model ASPMMA.Data.Order
+@model ASPMMA.Data.Order
+@using ASPMMA.Data
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Изтриване на поръчка";
+    var total = (Model.Products?.Price ?? 0) * Model.Quantity;
 }
 
-<h1>Delete</h1>
+<section class="section-head mb-4">
+    <div>
+        <h1>Изтриване на поръчка</h1>
+        <p>Поръчка #@Model.Id · @Model.Status.GetLabel()</p>
+    </div>
+    <a asp-controller="Admin" asp-action="Orders" class="btn btn-ghost-dark">Назад</a>
+</section>
 
-<h3>Are you sure you want to delete this?</h3>
-<div>
-    <h4>Order</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Products)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Products.Id)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Quantity)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Quantity)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Clients)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Clients.Id)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CreatedAt)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CreatedAt)
-        </dd>
-    </dl>
-    
-    <form asp-action="Delete">
+<section class="content-card danger-card">
+    <span class="eyebrow">Потвърждение</span>
+    <h2>Изтриване на тази поръчка?</h2>
+    <p class="form-note">@Model.Products?.Name, @Model.Quantity бр., общо @total.ToString("0.##") лв. за @Model.Clients?.UserName.</p>
+
+    <form asp-action="Delete" class="form-actions">
         <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        <button type="submit" class="btn btn-danger">Изтрий поръчката</button>
+        <a asp-controller="Admin" asp-action="Orders" class="action-link">Отказ</a>
     </form>
-</div>
+</section>

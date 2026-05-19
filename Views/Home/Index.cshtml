@@ -1,79 +1,144 @@
-﻿@{
-    ViewData["Title"] = "Home";
+@model ASPMMA.Models.HomeViewModel
+
+@{
+    ViewData["Title"] = "Начало";
+    var featured = Model.FeaturedProducts.ToList();
+    var categories = Model.Categories.ToList();
 }
 
-<section class="hero-card">
-    <span class="hero-kicker">Fight gear store</span>
-    <h1 class="hero-title">Fresh design for an <span>elite MMA shop</span>.</h1>
-    <p class="hero-text">
-        Premium gloves, rashguards, shorts and training essentials in one clean dashboard.
-        The whole look is built to feel fast, modern, and strong on desktop and mobile.
-    </p>
+<section class="home-hero">
+    <div class="home-hero-grid">
+        <div class="hero-panel">
+            <span class="hero-kicker">ММА екипировка</span>
+            <h1 class="hero-title">Ръкавици, шорти, протектори и екипировка за тренировки, спаринг и седмица на боя.</h1>
+            <p class="hero-text">Тежък стил, чист каталог и оборудване, което изглежда готово за клетката още преди да си отворил продукта.</p>
 
-    <div class="d-flex flex-wrap gap-3 mt-4">
-        <a asp-controller="Products" asp-action="Index" class="btn btn-brand btn-lg rounded-pill px-4">Browse products</a>
-        <a asp-controller="Orders" asp-action="Index" class="btn btn-ghost-dark btn-lg rounded-pill px-4">View orders</a>
-    </div>
+            <div class="home-hero-actions">
+                <a asp-controller="Products" asp-action="Index" class="btn btn-brand btn-lg">Пазарувай сега</a>
+                <a asp-controller="Categories" asp-action="Index" class="btn btn-ghost-dark btn-lg">Виж категориите</a>
+            </div>
 
-    <div class="stat-grid">
-        <div class="stat-card">
-            <h3>24/7</h3>
-            <p>Ready storefront feel with clear navigation and strong contrast.</p>
+            <div class="hero-points">
+                <div>
+                    <strong>Ръкавици</strong>
+                    <span>Тренировки, спаринг, състезания</span>
+                </div>
+                <div>
+                    <strong>Протектори</strong>
+                    <span>Кори, протектори за уста, бинтове</span>
+                </div>
+                <div>
+                    <strong>Облекло</strong>
+                    <span>Шорти, рашгарди, визия за излизане</span>
+                </div>
+            </div>
         </div>
-        <div class="stat-card">
-            <h3>100%</h3>
-            <p>Responsive layout approach with reusable cards, badges and table styles.</p>
-        </div>
-        <div class="stat-card">
-            <h3>Pro</h3>
-            <p>Sharper visual language that fits combat sports and premium equipment.</p>
-        </div>
+
+        <aside class="hero-gear-board">
+            <div class="hero-gear-card main">
+                <img src="~/images/mma-top-hero.jpg" alt="ММА бойци" class="hero-gear-image" />
+            </div>
+            <div class="hero-gear-strip">
+                <div>
+                    <strong>01</strong>
+                    <span>Удари</span>
+                </div>
+                <div>
+                    <strong>02</strong>
+                    <span>Граплинг</span>
+                </div>
+                <div>
+                    <strong>03</strong>
+                    <span>Защита</span>
+                </div>
+            </div>
+        </aside>
     </div>
 </section>
 
 <section class="metric-grid">
     <article class="metric-card">
-        <h3>Products</h3>
-        <p>Show gear with stronger visual hierarchy, pricing focus and cleaner actions.</p>
+        <h3>@featured.Count</h3>
+        <p>Акценти в каталога</p>
     </article>
     <article class="metric-card">
-        <h3>Orders</h3>
-        <p>Track purchases with readable totals, dates, usernames and product previews.</p>
+        <h3>@categories.Count</h3>
+        <p>Ключови категории</p>
     </article>
     <article class="metric-card">
-        <h3>Cart</h3>
-        <p>Quick overview of selected items with compact, user-friendly spacing.</p>
+        <h3>@featured.Count(x => x.StockQuantity > 0)</h3>
+        <p>Налични артикули</p>
     </article>
     <article class="metric-card">
-        <h3>Categories</h3>
-        <p>Organize the catalog better with distinct sections and lighter cognitive load.</p>
+        <h3>@(featured.Any() ? $"{featured.Max(x => x.Price):0.##} лв." : "0 лв.")</h3>
+        <p>Премиум селекция</p>
     </article>
 </section>
 
-<section class="content-card">
-    <div class="section-head">
-        <div>
-            <h2>What changed</h2>
-            <p>The redesign keeps the ASP.NET MVC structure but upgrades the whole visual system.</p>
+@if (categories.Any())
+{
+    <section class="home-band">
+        <div class="section-head">
+            <div>
+                <h2>Категории на преден план</h2>
+                <p>От удари и защита до пълен тренировъчен комплект.</p>
+            </div>
+            <a asp-controller="Categories" asp-action="Index" class="action-link">Всички категории</a>
         </div>
-    </div>
 
-    <div class="info-strip">
-        <div class="info-panel">
-            <h3>Visual improvements</h3>
-            <ul>
-                <li>Sticky glass-style navbar with cleaner CTA buttons</li>
-                <li>Dark premium theme with orange fight-brand accents</li>
-                <li>Reusable cards, badges, chips and table rows</li>
-                <li>Better spacing, stronger typography and mobile-ready sections</li>
-            </ul>
+        <div class="category-showcase">
+            @foreach (var category in categories)
+            {
+                <a asp-controller="Products" asp-action="Index" asp-route-categoryId="@category.Id" class="category-showcase-card">
+                    <span class="badge-soft">@category.Products.Count продукта</span>
+                    <h3>@category.CategoryName</h3>
+                    <p>@category.Description</p>
+                </a>
+            }
         </div>
-        <div class="info-panel">
-            <h3>Good fit for this project</h3>
-            <p>
-                Your repo already has scaffolded CRUD pages and a simple layout.
-                This version gives it a much more modern storefront vibe without changing the core MVC flow.
-            </p>
+    </section>
+}
+
+@if (featured.Any())
+{
+    <section class="home-band">
+        <div class="section-head">
+            <div>
+                <h2>Избрани продукти</h2>
+                <p>Фокус върху визия, наличност и бързо добавяне в количка.</p>
+            </div>
+            <a asp-controller="Products" asp-action="Index" class="action-link">Към каталога</a>
         </div>
-    </div>
-</section>
+
+        <div class="product-grid">
+            @foreach (var product in featured)
+            {
+                <article class="shop-card">
+                    <img src="@(string.IsNullOrWhiteSpace(product.ImageUrl) ? "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80" : product.ImageUrl)" alt="@product.Name" class="shop-card-image" />
+                    <div class="shop-card-body">
+                        <span class="badge-soft">@product.CatalogNumber</span>
+                        <h3>@product.Name</h3>
+                        <p class="product-sub">@product.Description</p>
+                        <div class="shop-meta">
+                            <span class="badge-date">@product.Categorys?.CategoryName</span>
+                            <span class="price-tag">@product.Price.ToString("0.##") лв.</span>
+                        </div>
+                        <div class="actions-wrap mt-3">
+                            <a asp-controller="Products" asp-action="Details" asp-route-id="@product.Id" class="action-link">Детайли</a>
+                            @if (User.Identity?.IsAuthenticated == true)
+                            {
+                                <form asp-controller="Carts" asp-action="AddToCart" method="post" class="inline-form">
+                                    @Html.AntiForgeryToken()
+                                    <input type="hidden" name="productId" value="@product.Id" />
+                                    <input type="hidden" name="quantity" value="1" />
+                                    <input type="hidden" name="returnUrl" value="@Context.Request.Path" />
+                                    <button type="submit" class="btn btn-brand btn-sm">Добави в количка</button>
+                                </form>
+                            }
+                        </div>
+                    </div>
+                </article>
+            }
+        </div>
+    </section>
+}

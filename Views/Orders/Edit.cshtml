@@ -1,48 +1,54 @@
-﻿@model ASPMMA.Data.Order
+@model ASPMMA.Data.Order
+@using ASPMMA.Data
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Статус на поръчка";
 }
 
-<h1>Edit</h1>
-
-<h4>Order</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" />
-            <div class="form-group">
-                <label asp-for="ProductId" class="control-label"></label>
-                <select asp-for="ProductId" class="form-control" asp-items="ViewBag.ProductId"></select>
-                <span asp-validation-for="ProductId" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Quantity" class="control-label"></label>
-                <input asp-for="Quantity" class="form-control" />
-                <span asp-validation-for="Quantity" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ClientId" class="control-label"></label>
-                <select asp-for="ClientId" class="form-control" asp-items="ViewBag.ClientId"></select>
-                <span asp-validation-for="ClientId" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="CreatedAt" class="control-label"></label>
-                <input asp-for="CreatedAt" class="form-control" />
-                <span asp-validation-for="CreatedAt" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
+<section class="section-head mb-4">
+    <div>
+        <h1>Статус на поръчка</h1>
+        <p>Поръчка #@Model.Id за @Model.Clients?.FullName</p>
     </div>
-</div>
+    <a asp-controller="Admin" asp-action="Orders" class="btn btn-ghost-dark">Назад</a>
+</section>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+<section class="content-card editor-card">
+    <div class="record-list mb-4">
+        <div>
+            <dt>Продукт</dt>
+            <dd>@Model.Products?.Name</dd>
+        </div>
+        <div>
+            <dt>Количество</dt>
+            <dd>@Model.Quantity бр.</dd>
+        </div>
+        <div>
+            <dt>Клиент</dt>
+            <dd>@Model.Clients?.UserName</dd>
+        </div>
+        <div>
+            <dt>Текущ статус</dt>
+            <dd>@Model.Status.GetLabel()</dd>
+        </div>
+    </div>
+
+    <form asp-action="Edit" class="stacked-form">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="Id" />
+
+        <div class="form-group">
+            <label asp-for="Status" class="control-label">Нов статус</label>
+            <select asp-for="Status" class="form-select" asp-items="Html.GetEnumSelectList<OrderStatus>()"></select>
+            <span asp-validation-for="Status" class="text-danger"></span>
+        </div>
+
+        <div class="form-actions">
+            <button type="submit" class="btn btn-brand">Запази</button>
+            <a asp-controller="Admin" asp-action="Orders" class="action-link">Отказ</a>
+        </div>
+    </form>
+</section>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
